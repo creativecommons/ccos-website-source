@@ -156,20 +156,6 @@
             "website": "https://resources.creativecommons.org/"
         },
         {
-            "created": "2025-06-24T05:31:04+00:00",
-            "description": "CC signals is a framework for a simple pact between those stewarding data, and those reusing it for AI development. CC signals provide a set of shared ground rules for an AI ecosystem that is mutually beneficial.",
-            "id": 1007505368,
-            "language": null,
-            "license": {
-                "name": "Creative Commons Attribution 4.0 International",
-                "url": "https://github.com/creativecommons/cc-signals/blob/main/LICENSE"
-            },
-            "name": "cc-signals",
-            "slack": "",
-            "url": "https://github.com/creativecommons/cc-signals",
-            "website": "https://creativecommons.org/ai-and-the-commons/cc-signals/"
-        },
-        {
             "created": "2014-10-06T22:07:52+00:00",
             "description": "RubyCAS customizations for CCID (Creative Commons ID)",
             "engineering_project": true,
