@@ -59,7 +59,9 @@
 .projects ul {
   display: grid;
   gap: 2rem;
-  margin-right: 2rem;
+  margin: 0; 
+  padding: 0; 
+  list-style: none;
 }
 
 .projects article {
@@ -380,8 +382,8 @@ main a:has(span.gh-label) {
   .projects {
     grid-column: 2 / 10;
     margin-bottom: 6rem;
+    padding: 0;
   }
-
   .body-container, .main-content{
     grid-column: 2 / 10;
   }
