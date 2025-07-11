@@ -34,9 +34,10 @@
 
 {% if this.series|length %}
   {% set series = this.parent.parent.children.get('series').children.get(this.series) %}
-  <aside>
-    <p>This blog is part of the series:</p>
+  <aside class="closing">
+    <p>This blog is part of the series:
     <a href="{{ series.path|url }}">{{ series.name }}</a>
+    </p>
   </aside>
 
   <article class="posts related">
