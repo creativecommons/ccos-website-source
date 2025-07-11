@@ -575,6 +575,28 @@
             "website": "http://open4us.org/"
         },
         {
+            "created": "2024-10-03T19:13:10+00:00",
+            "description": "",
+            "engineering_project": true,
+            "english_name": "Open GLAM",
+            "featured": false,
+            "id": 867282375,
+            "language": null,
+            "license": {
+                "name": "MIT License",
+                "url": "https://github.com/creativecommons/openglam/blob/main/LICENSE"
+            },
+            "name": "openglam",
+            "slack": "",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "Javascript"
+            ],
+            "url": "https://github.com/creativecommons/openglam",
+            "website": ""
+        },
+        {
             "created": "2022-09-07T17:02:39+00:00",
             "description": "quantify the size and diversity of the commons--the collection of works that are openly licensed or in the public domain",
             "engineering_project": true,
