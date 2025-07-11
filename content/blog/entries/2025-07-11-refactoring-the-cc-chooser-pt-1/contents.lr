@@ -28,11 +28,11 @@ hope to grow it.
 
 From our [website][cc-website]:
 
-> "Our [chooser][chooser] helps you determine which Creative Commons License is 
+> Our [chooser][chooser] helps you determine which Creative Commons License is 
 right for 
 you in a few easy steps. If you are new to Creative Commons, you may also want 
 to read licensing considerations before you [get started with the 
-chooser][chooser]"
+chooser][chooser]
 
 ## Circumstances and context
 
@@ -134,6 +134,6 @@ In the next part of this series we’ll walk through the technical debt the
 Chooser had accrued, and the specific improvements and changes that we’ve 
 implemented!
 
-[cc-website]: https://creativecommons.org
+[cc-website]: https://creativecommons.org/share-your-work/
 [chooser]: https://creativecommons.org/choose/
 [open-verse]: https://openverse.org/
