@@ -1,0 +1,139 @@
+title: Refactoring and Releasing the new CC Chooser: Part 1
+---
+categories:
+open-source
+cc-chooser
+cc-vocabulary
+---
+author: sara
+---
+series: 2025-chooser-refactor
+---
+pub_date: 2025-07-11
+---
+body:
+We’re excited to announce that we have finally moved the Chooser from a 
+long-term beta state into a finished and stable v1.0. But it certainly hasn’t 
+been a straight-line. The Chooser has been met with a lot of challenges along 
+the way and in this series we’ll walk through that journey in three parts:
+
+- Part 1: History and debt: The historical context that led to the newest 
+refactor and release of the 2025 Chooser.
+- Part 2: Specifics and fixes: Breaking down the specifics of technical debt, 
+issues, complexity, contextual-shift misalignment, and fixes.
+- Part 3: Future Growth: What’s next for the Chooser, and what directions we 
+hope to grow it.
+
+## What’s the Chooser?
+
+From our [website][cc-website]:
+
+> Our [chooser][chooser] helps you determine which Creative Commons License is 
+right for 
+you in a few easy steps. If you are new to Creative Commons, you may also want 
+to read licensing considerations before you [get started with the 
+chooser][chooser]
+
+## Circumstances and context
+
+What do you do when an ecosystem shifts, not just with the number of engineers, 
+but also from the focal point of complexity built around a core product that no 
+longer exists at an org? You evaluate the context within which everything 
+exists and you reevaluate what works from there forward.
+
+The Chooser has existed as a tool within the Creative Commons (CC) main website 
+for over fifteen years, and helped guide countless people through their choice 
+of sharing restraints and freedoms combined with which Legal Tool those 
+requirements are best aligned with. In 2019 the Chooser was met with a need to 
+refactor both its UX, and also its core technological approach. The CC 
+Technology team was focused hard on CC Search, which would later launch in the 
+Summer of 2019. CC Search was a rather complex application that required a more 
+robust and dynamic user interface. It was in every way much more of an app than 
+a website and so the team chose to build out the CC Search engine with Vue.js. 
+Like the rest of the JavaScript ecosystem, this meant some speed and 
+affordances in dev time with a trade off in larger code dependency and 
+complexity; given the size of their team and the ecosystem they were seeking to 
+build it was a solid and reasonable judgement call.
+
+## Building an ecosystem from a strong core product 
+
+After landing on Vue and setting to work to build out the search engine, it 
+became reasonable to also move as many other projects to the same ecosystem so 
+that updates overall could better operate as a supportive ecosystem. If other 
+websites and projects were moved to Vue, then they could share dependencies, 
+benefit from fixes and updates, and as the CC Search engine grew it could have 
+the delightful benefit of lifting up all the other projects along the way. 
+
+With a larger engineering team to manage the ecosystem it made a lot of sense 
+(Node is sprawling, and can be overkill in the wrong circumstances). It 
+decreased the complexity of managing a search engine, while adding some 
+complexity to smaller projects, with the balanced gain of spreading updates and 
+works across the whole a lot more cohesively. The end goal here was a 
+development environment that was much less siloed and more responsibility 
+consistent in how it approached dev work. 
+
+Vocabulary also entered the picture at this time. Its goal was to operate as a 
+design spec and implementation “rule system” for the Vue framework 
+implementation.
+
+## Shifting circumstances
+
+In 2020, Covid shocked our society, disrupted giving, and brought staff 
+reductions to Creative Commons. Most of the Technology team was laid off. Work 
+was mostly suspended, some projects were sunset, and others were left with 
+minimal maintenance. Thankfully, CC Search was acquired and continued by 
+Automattic as [Openverse][openverse]. However, with its absence came a rather 
+large hole at 
+the center of a very large development wheel. 
+
+Without the CC Search engine, now all the smaller projects which had adopted 
+Vue would no longer receive the benefit of being attached to the larger 
+project’s progress. Instead a balkanization began to unfold. The flexibility 
+and scale that the Node ecosystem had offered when the CC Engine existed at the 
+organization no longer applied, and now Node in all its forms within all the 
+various projects were a liability instead of a strength.
+
+Node is a fast moving system, and without a larger team it was difficult to 
+keep dependencies updated, tested, and secure. Projects began to drift away 
+from each other. Some projects still utilized Vue, others only halfway, and 
+others abandoned in-progress migrations to Vue, instead falling back to what 
+they had been doing before. The ecosystem fragmented and technical debt began 
+to accrue. Since Vue (and by proxy Node/NPM) moves so quickly–the debt 
+accrual was considerable.
+
+## The 2020 Chooser in limbo
+
+The 2020 Chooser, left with minimal maintenance, was a beta version. It was 
+revamped and rebuilt to focus on the latest legal tools, offer a better UX, and 
+incorporate the Vocabulary design system. It was built from the ground up 
+entirely within Vue. And so the Chooser largely stayed, mired in beta due to an 
+ever increasing amount of technical debt. The rest of the world was moving from 
+Vue 2 to Vue 3, but there wasn't capacity at CC to update the Chooser.
+
+By 2023, the Technology team had the capacity to begin reducing technical debt. 
+Later that year the main CC site redesign was launched. That work cleared the 
+way for redoing the Vocabulary design system, removing Vue, and simplifying its 
+approach to be better scaled to a more concise set of engineering resources. 
+The new site better utilized native WordPress functionality and minimized 
+JavaScript (it did not use Vue or any other JavaScript framework).
+
+## Laying groundwork for a refactor and release
+
+A lot of time had passed since its original beta redesign and 2020 beta 
+release. The scope of the Chooser needed to be reconsidered. The core of its 
+functionality needed to be narrowed back down to manageable goals, decision 
+pathways, and stable long-term engineering.
+
+In 2025, the Chooser was updated to better align with both the larger CC dev 
+ecosystem and the capacity of the Technology team. These changes have resulted 
+in a Chooser that is more integrated, balanced, stable, and viable long term.
+
+## Moving forward
+
+In the next part of this series we’ll walk through the technical debt the 
+Chooser had accrued, and the specific improvements and changes that we’ve 
+implemented!
+
+[cc-website]: https://creativecommons.org/share-your-work/
+[chooser]: https://creativecommons.org/choose/
+[open-verse]: https://openverse.org/

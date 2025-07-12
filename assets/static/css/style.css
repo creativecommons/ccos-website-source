@@ -121,19 +121,6 @@ code {
   max-width: 100%;
 }
 
-/* BLOCKQUOTE STYLING */
-
-main blockquote, main blockquote p , main blockquote p:before{
-  all: unset; /* This removes all inherited and applied styles from vocabulary */
-  display: block;
-}
-
-main blockquote {
-  background-color: hsl(0, 0%, 96%);
-  border-left: 5px solid rgb(245, 245, 245);
-  padding: 1.25em 1.5em;
-}
-
 /* BUTTON STYLES FOR PROJECT IDEAS PAGE */
 .filter-btn {
   border: 2px solid var(--vocabulary-brand-color-tomato);
