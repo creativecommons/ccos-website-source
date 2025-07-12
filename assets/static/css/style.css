@@ -59,7 +59,7 @@
 .projects ul {
   display: grid;
   gap: 2rem;
-  margin-right: 2rem;
+  margin: 0; 
 }
 
 .projects article {
@@ -365,10 +365,9 @@ main a:has(span.gh-label) {
   }
 
   .projects {
-    grid-column: 2 / 10;
+    grid-column: 2 / 11;
     margin-bottom: 6rem;
   }
-
   .body-container, .main-content{
     grid-column: 2 / 10;
   }
