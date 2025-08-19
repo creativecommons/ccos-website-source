@@ -334,29 +334,6 @@
             "website": "https://opensource.creativecommons.org/creativecommons-base/"
         },
         {
-            "created": "2020-06-11T17:20:52+00:00",
-            "description": "WordPress theme for the CC Certificate Website",
-            "engineering_project": true,
-            "english_name": "Creative Commons Certificates program child theme",
-            "featured": false,
-            "id": 271605671,
-            "language": "PHP",
-            "license": {
-                "name": "MIT License",
-                "url": "https://github.com/creativecommons/creativecommons-certificate/blob/main/LICENSE"
-            },
-            "name": "creativecommons-certificate",
-            "slack": "",
-            "technologies": [
-                "CSS",
-                "HTML",
-                "PHP",
-                "WordPress"
-            ],
-            "url": "https://github.com/creativecommons/creativecommons-certificate",
-            "website": ""
-        },
-        {
             "created": "2013-10-31T00:19:22+00:00",
             "description": "Legacy legal code translations and general support issues",
             "engineering_project": true,
