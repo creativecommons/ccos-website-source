@@ -302,7 +302,10 @@ main:has( > aside.sidebar) > article {
 main:has( > aside.sidebar) > aside.sidebar {
     grid-column: 7 / span 4;
     grid-row-start: 2;
-    padding-left: 4.1em;
+    background-color: var(--vocabulary-brand-color-soft-gold);
+    margin-left: 4.1rem;
+    padding: 1em 1em 1em 4.1em;
+    height: fit-content;
 }
 
 main > aside.sidebar h2 {
@@ -322,13 +325,13 @@ main > aside.sidebar nav.filter-menu ul li {
 }
 
 main > aside.sidebar nav.filter-menu ul li.current {
-    background: var(--vocabulary-brand-color-soft-tomato);
+    background: var(--vocabulary-brand-color-dark-tomato);
     /* padding: 1em; */
     font-weight: bold;
 }
 
 main > aside.sidebar nav.filter-menu ul li.current a {
-    --underline-background-color: var(--vocabulary-brand-color-soft-tomato);
+    --underline-background-color: var(--vocabulary-brand-color-dark-tomato);
 }
 
 main > aside.sidebar nav ul {
@@ -434,7 +437,7 @@ main aside.opening p {
 main a {
      /* better hyperlink underline typesetting inspired by Tufte CSS */
      --underline-color: var(--vocabulary-brand-color-dark-tomato);
-     --underline-background-color: white;
+     /* --underline-background-color: white; */
      color: var(--vocabulary-brand-color-dark-tomato);
      text-decoration: none;
 
