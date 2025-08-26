@@ -240,22 +240,6 @@
             "website": "https://opensource.creativecommons.org/ccrel-guide/"
         },
         {
-            "created": "2018-04-10T22:44:46+00:00",
-            "description": "Theme for CC Certificates website landing page",
-            "engineering_project": true,
-            "featured": false,
-            "id": 129003332,
-            "language": "SCSS",
-            "license": {
-                "name": "GNU General Public License v2.0",
-                "url": "https://github.com/creativecommons/certificates-landing-page-theme/blob/main/LICENSE"
-            },
-            "name": "certificates-landing-page-theme",
-            "slack": "",
-            "url": "https://github.com/creativecommons/certificates-landing-page-theme",
-            "website": "http://certificates.creativecommons.org/"
-        },
-        {
             "created": "2019-05-22T22:36:52+00:00",
             "description": "The new and improved CC license selection tool.",
             "engineering_project": true,
@@ -332,29 +316,6 @@
             ],
             "url": "https://github.com/creativecommons/creativecommons-base",
             "website": "https://opensource.creativecommons.org/creativecommons-base/"
-        },
-        {
-            "created": "2020-06-11T17:20:52+00:00",
-            "description": "WordPress theme for the CC Certificate Website",
-            "engineering_project": true,
-            "english_name": "Creative Commons Certificates program child theme",
-            "featured": false,
-            "id": 271605671,
-            "language": "PHP",
-            "license": {
-                "name": "MIT License",
-                "url": "https://github.com/creativecommons/creativecommons-certificate/blob/main/LICENSE"
-            },
-            "name": "creativecommons-certificate",
-            "slack": "",
-            "technologies": [
-                "CSS",
-                "HTML",
-                "PHP",
-                "WordPress"
-            ],
-            "url": "https://github.com/creativecommons/creativecommons-certificate",
-            "website": ""
         },
         {
             "created": "2013-10-31T00:19:22+00:00",
