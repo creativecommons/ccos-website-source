@@ -278,6 +278,23 @@ main a:has(span.gh-label) {
   color: #000000;
 }
 
+/* Sidebar Visual Distinction */
+main:has( > aside.sidebar) > aside.sidebar {
+    background-color: var(--vocabulary-brand-color-soft-gold);
+    margin-left: 4.1rem;
+    padding: 1em 1em 1em 4.1em;
+    height: fit-content;
+}
+
+main > aside.sidebar nav.filter-menu ul li.current {
+    background: var(--vocabulary-brand-color-dark-tomato);
+    font-weight: bold;
+}
+
+main > aside.sidebar nav.filter-menu ul li.current a {
+    --underline-background-color: var(--vocabulary-brand-color-dark-tomato);
+}
+
 /* CC Search Feature */
 .steps-list {
   list-style: none;
