@@ -1,0 +1,45 @@
+_model: project-idea
+---
+_hidden: yes
+---
+title: Improving Quantifying the Commons
+---
+problem:
+The Quantifying the Commons project has seen excellent additions led by student
+developers and contributors. A couple of data sources have been automated, but many more remain.
+---
+expected_outcome:
+Add automated data fetching, processing, and reporting of new sources.
+---
+contributor_tasks:
+The contributor will need to adapt or improve the data flow. New sources should
+utilize the existing codebase as much as possible and ensure improvements are
+implemnted consistently across sources. Challenges include quota limits that
+may require multi-day/multi-step data gathering, incomplete source
+documentation, and ensuring data is reported clearly. Knowledge of numpy and
+matplotlib python libraries will be very helpful.
+---
+application_tips:
+- Engage with the repository (issues, pull requests)
+- Be helpful and welcoming (e.g. answer other contributors’ questions on Zulip)
+- [Applicant Guide](/programs/applicant-guide/)
+---
+resources:
+- [creativecommons/quantifying](https://github.com/creativecommons/quantifying):
+  Quantifying the Commons
+  - [Quantifying the Commons 2025Q3 report](https://github.com/creativecommons/quantifying/blob/main/data/2025Q3/README.md)
+---
+skills_recommended:
+- APIs
+- Git
+- GitHub Actions
+- Python
+---
+lead:
+- Timid Robot
+---
+difficulty: Medium
+---
+size: Large (~350 hours, ~12 weeks)
+---
+filter_value: difficulty-medium skill-git skill-github-actions skill-python
