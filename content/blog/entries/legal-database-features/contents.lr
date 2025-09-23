@@ -67,4 +67,4 @@ Some other features were implemented but only relevant to our registered users, 
 
 After reviewing all done this last month I see significant progress has been made, I have learned many things along the way: more of what Django and its ecosystem offers, about accessibility, continuous integration in Heroku and GitHub, and more. One of the things that makes me most happy is being able to be contributing and being part of an Open Source organization, knowing how it moves and works inside, something I never imagine before.
 
-Time flies and there are less than two weeks left to finish, so if you want to follow the project here is the repository to suggest improvements or report bugs, or if you prefer something less technical you can join us on the [slack channel](https://creativecommons.slack.com/channels/cc-dev-legal-database).
+Time flies and there are less than two weeks left to finish, so if you want to follow the project here is the repository to suggest improvements or report bugs, or if you prefer something less technical you can join us on the `# Open Source` channel on Zulip. [updated 2025-09-23]

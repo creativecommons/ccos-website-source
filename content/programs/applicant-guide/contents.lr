@@ -11,7 +11,7 @@ are welcome to lead projects. Details about specific programs and rounds are
 listed in the [Overview page](/programs); this page serves as a general guide
 to applicants.
 ---
-body:
+body: <!-- disregard: vim syntax highlighting fix_ -->
 
 
 ## Getting Started
@@ -51,12 +51,10 @@ anything like that, please don't hesitate to ask (join the community)!
 
 ### Join the Community
 
-[Join the `#cc-dev-workprograms` channel on the CC Slack][slack] as early as
-possible to introduce yourself and get feedback on your ideas. All our project
-leads are on Slack. Please ask your questions on the channel instead of via
-direct message. This lets other community members learn and participate.
-
-[slack]: /community/#slack
+Join the `# CCOS Work Programs` channel on [Zulip](/community/#zulip) as early
+as possible to introduce yourself and get feedback on your ideas. All our
+project leads are on Zulip. Please ask your questions on the channel instead of
+via direct message. This lets other community members learn and participate.
 
 
 ### Pick a Project
@@ -189,8 +187,8 @@ a link to [our work program project template][projecttemplate] are preferred.
 
 ## Contacting Project Leads
 
-All the CC project leads are on [Slack](/community/). **Please use public
-channels on Slack as the primary method of communication.** Public channels are
+All the CC project leads are on [Zulip](/community/#zulip). **Please use public
+channels on Zulip as the primary method of communication.** Public channels are
 better than direct messages because it allows any available project lead (or
 even another applicant and contributors) to answer your questions and interact
 with you. It also allows other applicants and contributors who have the same

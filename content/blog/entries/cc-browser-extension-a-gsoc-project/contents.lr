@@ -59,8 +59,8 @@ Similarly, if we add a feature, say dark-mode, then the users who prefer it over
 - Start working on the functionality of showing the image preview with data, attribution, etc when we click on the image. This may take more than one week.
 
 ### How you can help
-The development is still in the initial phase but you can check out **a working extension** at the [Github Repository](https://github.com/creativecommons/ccsearch-browser-extension). There are instructions to help you get started and load it to Firefox.
+The development is still in the initial phase but you can check out **a working extension** at the [Github Repository](https://github.com/cc-archive/ccsearch-browser-extension). There are instructions to help you get started and load it to Firefox.
 
-Tell us what you expect the extension to do, or a feature that you wish would be implemented. At this early stage of development, it might help us improve our goals. You can join the discussion on `#gsoc-browser-ext` channel on [slack](/community/#slack).
+Tell us what you expect the extension to do, or a feature that you wish would be implemented. At this early stage of development, it might help us improve our goals. You can join the discussion on the `# Open Source` channel on Zulip. [updated 2025-09-23]
 
 I would like to thank [Alden](https://creativecommons.org/author/aldencreativecommons-org/), [Timid](https://creativecommons.org/author/timidcreativecommons-org/) and [Kriti](https://creativecommons.org/author/kriticreativecommons-org/) to for their mentorship and providing an experienced perspective and solutions to the problems faced by this naive developer.

@@ -6,64 +6,57 @@ title: Community Team: Community Building Roles
 ---
 description: This page serves as a guide for community building roles on CC's <a href="/community/community-team/">Community Team</a>.
 ---
-body:
+body: <!-- disregard: vim syntax highlighting fix_ -->
 
 Community building roles are for folks interested in helping grow CC's open source community by ensuring all contributors have a good experience and spreading the word about CC's projects.
 
 If you'd like to apply for one of these roles, please see the main [Community Team][communityteam] page.
 
 ## Community Collaborator
-**Who should apply:**  
-If you’ve helped anyone else in the CC open source community on GitHub, Slack, or email and you’d like to do more to help grow the community, you should apply for this role!
 
-**What does this role give you?**  
+**Who should apply:**
+If you’ve helped anyone else in the CC open source community on GitHub or Zulip and you’d like to do more to help grow the community, you should apply for this role!
+
+**What does this role give you?**
 * You’ll receive previews of upcoming changes to the Community Team program.
 * You’ll be listed as [a member of the Community Team on CC Open Source](/community/community-team/members/).
 
-**How can you engage with the community?**  
+**How can you engage with the community?**
 You can use the following channels to engage with the community:
 * [Edit access](/community/community-team/engagement-channels/#edit-access)
   on our upcoming tweets
-* Invitation to our Slack channels
-  * [Newbie channels](/community/community-team/engagement-channels/#newbie-channels)
-  * [UX design channels](/community/community-team/engagement-channels/#ux-design-channel)
-  * [Community Team channel](/community/community-team/engagement-channels/#community-team-channel)
-* Invitation to our [meetings](/community/community-team/engagement-channels/#meetings)
-* Membership in the [Community Team mailing list](/community/community-team/engagement-channels/#community-team-group)
+* Invitation to [Zulip](/community/#zulip)
 
-**Guidelines for Community Contributors**  
+**Guidelines for Community Contributors**
 If you’ve been accepted as a Community Contributor, you are encouraged to:
 * keep helping people in the CC open source community!
-  * Respond to people on Slack.
+  * Respond to people on Zulip.
   * Respond to questions or issues on GitHub.
-  * Respond to people on CC's mailing lists.
-* participate in discussions in Slack or via email.
 * contribute in other ways if you’d like, like [writing code or reviewing pull requests](/community/community-team/project-roles/).
-* suggest improvements to, and new ideas for, the tweets from the [CC Open Source Twitter account](https://twitter.com/cc_opensource).
 
 **Note:** The role of Community Contributor was deprecated in December 2020 and all members were redesignated as collaborators.
 
 ## Community Maintainer
-**Who should apply:**  
+**Who should apply:**
 If you’re a Community Collaborator who has done some meatier community building tasks and wants more responsibility, you should apply for this role. Please note that this role comes with a lot of responsibilities!
 
-**What does this role give you?**  
+**What does this role give you?**
 * Everything a Community Collaborator gets.
 * Manager permission on CC’s developer mailing list.
   * You’ll be able to approve new requests for people to join and moderate the list.
 * Creative Commons staff will write you a letter of recommendation on request.
 * You'll receive CC swag.
 
-**How can you engage with the community?**  
+**How can you engage with the community?**
 In addition to the channels afforded to a Community Collaborator, you can use the following channels to engage with the community:
 * [Publish access](/community/community-team/engagement-channels/#publish-access) on
   our upcoming tweets
 
-**Guidelines for Community Maintainers**  
+**Guidelines for Community Maintainers**
 If you’ve been accepted as a Community Maintainer, you are encouraged to:
 * do everything a Community Collaborator does.
 * respond to requests to join the CC developer mailing list.
-* be available on Slack/email or GitHub regularly.
-* ensure that people are getting the help they need on Slack and GitHub.
+* be available on Zulip/email or GitHub regularly.
+* ensure that people are getting the help they need on Zulip and GitHub.
 
 [communityteam]:/community/community-team/
