@@ -925,27 +925,6 @@
             "website": ""
         },
         {
-            "created": "2020-09-08T17:50:40+00:00",
-            "description": "[WIP] WordPress theme for openglam.org",
-            "engineering_project": true,
-            "english_name": "WordPress OpenGlam theme",
-            "featured": false,
-            "id": 293885986,
-            "language": "PHP",
-            "license": {
-                "name": "MIT License",
-                "url": "https://github.com/creativecommons/wp-theme-openglam/blob/main/LICENSE"
-            },
-            "name": "wp-theme-openglam",
-            "slack": "cc-dev-wordpress",
-            "technologies": [
-                "PHP",
-                "WordPress"
-            ],
-            "url": "https://github.com/creativecommons/wp-theme-openglam",
-            "website": ""
-        },
-        {
             "created": "2019-10-16T17:42:01+00:00",
             "description": "",
             "engineering_project": true,
