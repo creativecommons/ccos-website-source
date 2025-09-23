@@ -9,7 +9,7 @@ description: Our translation files are hosted and managed on
 account and start translation Creative Commons (CC) services into another
 language.
 ---
-body:
+body: <!-- disregard: vim syntax highlighting fix_ -->
 
 CC applications such as CC Search and the CC Chooser are used by millions of
 users worldwide. Translating these services into the languages our users speak
@@ -80,9 +80,7 @@ of this tutorial if you prefer that as the medium of instruction.
     team that's translating this project.
   - In the modal choose your language and click the 'Join' button. You'll
     receive a notification that a request has been submitted.
-  - Notify the `cc-translation` channel on Slack
-    - See [Join the CC Developer Community — Creative Commons Open
-      Source](/community/) for instructions on joining Slack
+  - Notify the `# Translation` channel on [Zulip](/community/#zulip)
   - Wait for an administrator to add you to the team.
 
 <p style="text-align: center;">

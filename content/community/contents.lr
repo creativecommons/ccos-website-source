@@ -4,81 +4,43 @@ _template: page-with-toc.html
 ---
 title: Join the CC Developer Community
 ---
-description: Join our Slack to meet other developers interested in Creative
+description: Join our Zulip to meet other developers interested in Creative
 Commons (CC), get feedback on your projects, and talk with CC's full-time
 Technology team members. You can also keep up with us on the <a href="/blog">CC
 Open Source Blog</a>.
 ---
-body:
+body: <!-- disregard: vim syntax highlighting fix_ -->
 
 
-## Mailing Lists
+## Zulip
 
-**CC Developers**: For general technical discussion open to all members. Join
-[on Google Groups][group-cc-developers] or by sending an email to
-`cc-developers+subscribe@creativecommons.org`.
+Creative Commons has a large Zulip community with many sub-communities. It is
+open to the public and you can sign up with the [Creative Commons Community
+Intake Form][zulip-signup]. If you're not familiar with Zulip, please read
+[Getting started with Zulip | Zulip help center][zulip-start].
 
-**CC Usability Announcements**: Announcement-only list for users to sign up for
-usability testing. Join [on Google Groups][group-usability-announce] or by
-sending an email to `usability-announce+subscribe@creativecommons.org`.
+Once you join, please introduce yourself in the `# Open Source` channel.
 
-[group-cc-developers]: https://groups.google.com/a/creativecommons.org/forum/#!forum/cc-developers
-[group-usability-announce]: https://groups.google.com/a/creativecommons.org/forum/#!forum/usability-announce
-
-
-## Slack
-
-Creative Commons has a large Slack community with sub-communities for
-tech/developers (of course), the [CC Global Network][network], specific
-countries, open education, GLAM, and more. It is open to the public and you can
-[sign up here][slack-signup]. If you're not familiar with Slack, please read
-["Getting Started" on Slack's usage guide][slack-usage]. Information on joining
-a specific channel is on ["Join a channel"][slack-join-help].
-
-Once you join, please introduce yourself in the `#cc-developers` channel.
-
-[network]: https://network.creativecommons.org/
-[slack-signup]: http://slack-signup.creativecommons.org/
-[slack-usage]: https://get.slack.help/hc/en-us/categories/360000049043
-[slack-join-help]: https://get.slack.help/hc/en-us/articles/205239967-Join-a-channel
+[zulip-signup]: https://docs.google.com/forms/d/e/1FAIpQLSf2HY_wHq5SlgP_0U0ZWQKGXKwocNhm_vCPY34bUQrQ_hWoAQ/viewform
+[zulip-start]: https://zulip.com/help/getting-started-with-zulip
 
 The channels most relevant to CC's developer community are:
 
 | Channel | Discussion related to |
 | ------- | --------------------- |
-| `#cc-dev-legal-tools` | [cc-legal-tools-app][cc-legal-tools-app] project (CC Legal Tools formatting and translation) |
-| `#cc-dev-legaldb` | [legaldb][legaldb] project |
-| `#cc-dev-license-chooser` | [cc-chooser][cc-chooser] project (new CC license chooser) |
-| `#cc-dev-linkchecker` | [cc-link-checker][cc-link-checker] project |
-| `#cc-dev-platform-toolkit` | [mp][mp] project (CC Platform Toolkit) |
-| `#cc-dev-searchportal` | [search][search] project |
-| `#cc-dev-vocabulary` | [cc-vocabulary][cc-vocabulary] project |
-| `#cc-dev-workprograms` | **GSoC, GSoD, Outreachy, and other [work programs][workprograms] or internships** |
-| `#cc-developers` | **general technical issues, new tech blog posts, etc.** |
-| `#cc-translation` | Coordinating translation efforts |
-| `#cc-usability` | general usability issues, seeking feedback on new releases of CC products from the community, etc. |
+| `# CCOS Work Programs` | GSoC, GSoD, Outreachy, and other [work programs][workprograms] or internships |
+| `# Open Source` | CC Open Source projects |
+| `# Translation` | Translation and Transifex coordiantion |
 
-[legaldb]: https://github.com/creativecommons/legaldb
-[cc-chooser]: https://github.com/creativecommons/cc-chooser
-[cc-legal-tools-app]: https://github.com/creativecommons/cc-legal-tools-app
-[cc-link-checker]: https://github.com/creativecommons/cc-link-checker
-[mp]: https://github.com/creativecommons/mp
-[cc-vocabulary]: https://github.com/creativecommons/cc-vocabulary
-[search]: https://github.com/creativecommons/search
 [workprograms]: /programs/
 
 
-### Slack Tips
+### Zulip Tips
 
-- You will automatically join the `#general` and `#cc-announcements` channels
-  when you sign in to Slack for the first time.
-    - `#general` is for general purpose discussions relevant to CC.
-    - `#cc-announcements` is reserved for important announcements from CC
-      staff.
-- For more information about how Creative Commons uses Slack, see [the Slack
-  page on the CC public wiki][wiki-slack].
-- If you're looking to talk to someone on CC's full-time engineering staff,
-  you're most likely to find us on Slack between 11:00 and 23:00 UTC on
+- [Getting started with Zulip | Zulip help center][zulip-start]
+- If you're looking to talk to someone on CC's full-time Technology team,
+  you're most likely to find us on Zulip between 11:00 and 23:00 UTC on
   weekdays.
-
-[wiki-slack]: https://wiki.creativecommons.org/wiki/Slack
+- In addition to a web interface, Zulip has dedicated apps: [Download the Zulip
+  app for your device](https://zulip.com/apps/)
+  - Organization URL: `creativecommons.zulipchat.com`

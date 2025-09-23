@@ -17,18 +17,18 @@ here! ❤️
 
 Before engaging with our projects, please ensure you have a working knowledge
 of the following technologies:
-1. Slack
+1. Zulip
 2. Command line interface (CLI)
 3. Code editor
 4. GitHub and git
 5. Docker
 
 
-## Slack
+## Zulip
 
-Slack is currently our primary channel for chat and lower latency communication.
+Zulip is currently our primary channel for chat and lower latency communication.
 
-For more information, see [Join the CC Developer Community](/community/).
+For more information, see [Zulip](/community/#zulip).
 
 
 ## Command line interface (CLI)
@@ -218,4 +218,4 @@ Our projects use [Docker Compose | Docker Docs][docker-compose].
 
 We have added a lot of documentation (ex. language guides) and tooling (issue
 finder) to this site that cover frequently asked questions and confusions.
-Please explore this site and reach out on Slack for additional assistance.
+Please explore this site and reach out on Zulip for additional assistance.

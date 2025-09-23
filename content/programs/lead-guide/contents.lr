@@ -11,7 +11,7 @@ are welcome to lead projects. Details about specific programs and rounds are
 listed in the [Overview page](/programs); this page serves as a general project
 lead guide.
 ---
-body:
+body: <!-- disregard: vim syntax highlighting fix_ -->
 
 
 ## Considerinng Being a Project Lead?
@@ -68,7 +68,7 @@ three months by a contributor with very little prior experience.
 Once the initial application period opens, things get chaotic for a little bit
 as hundreds of applicants investigate various open source communities to try
 and contribute to them and find a good fit for a work program. There are a lot
-of emails, Slack messages, GitHub comments, and so on. This stage of the
+of emails, Zulip messages, GitHub comments, and so on. This stage of the
 program is the most intense and lasts about a month (although the first few
 days are the most overwhelming).
 
@@ -165,7 +165,7 @@ During the work program:
   day.
    - If your contributor is blocked on their work for some other reason, help
      them become unblocked as soon as possible.
-- Check in on Slack with the contributor once every day or two. Remember that
+- Check in on Zulip with the contributor once every day or two. Remember that
   they are often not experienced with the work they are doing and may not know
   to ask for help or may be stuck on something that they cannot articulate very
   well.

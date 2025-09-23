@@ -6,7 +6,7 @@ title: Community Team: Project Roles
 ---
 description: This page serves as a guide for project-based roles on Creative Commons' <a href="/community/community-team/">Community Team</a>.
 ---
-body:
+body: <!-- disregard: vim syntax highlighting fix_ -->
 
 Project roles are intended for folks interested in contributing to a specific
 project or codebase. You may have roles on multiple projects, but they will
@@ -34,26 +34,15 @@ this role.
 You can use the following channels to engage with the community:
 - [Read access](/community/community-team/engagement-channels/#read-access) on
   the relevant repos on GitHub
-- Invitation to our Slack channels
-  - [Newbie
-    channels](/community/community-team/engagement-channels/#newbie-channels)
-  - [UX design
-    channels](/community/community-team/engagement-channels/#ux-design-channel)
-  - [Community Team
-    channel](/community/community-team/engagement-channels/#community-team-channel)
-- Invitation to our
-  [meetings](/community/community-team/engagement-channels/#meetings)
-- Membership in the [Community Team mailing
-  list](/community/community-team/engagement-channels/#community-team-group)
+- [Zulip](/community/#zulip)
 
 **Guidelines for Project Contributors**
 
 If you’ve been accepted as a Project Contributor, you are encouraged to:
 - keep contributing to the project as and when you can!
-- participate in discussions in Slack or via email.
-- contribute in other ways if you'd like, like [helping out newbie developers
-  or voting on our
-  tweets](/community/community-team/community-building-roles/).
+- participate in discussions in Zulip.
+- contribute in other ways if you'd like, like [helping out newbie
+  developers](/community/community-team/community-building-roles/).
 
 
 ## Project Collaborator

@@ -11,7 +11,7 @@ are welcome to lead projects. Details about specific programs and rounds are
 listed in the [Overview page](/programs); this page serves as a general guide
 for accepted contributors.
 ---
-body:
+body: <!-- disregard: vim syntax highlighting fix_ -->
 
 If you are an applicant, read our [Applicant
 Guide](/programs/applicant-guide/).
@@ -41,7 +41,7 @@ Once the work program starts, here's what we expect of you:
 - For medium projects: Work 15-20 hours per week (or agree on a different plan
   with your mentor ahead of time).
 - Push code to GitHub frequently. Commit early and often.
-- Be available on Slack whenever you are working and post at least once a
+- Be available on Zulip whenever you are working and post at least once a
   (work)day to talk about what you're working on that day.
 - Write a short update on your work **every two weeks** and post it to the CC
   technical blog ([instructions are here](/community/write-a-blog-post/)). To

@@ -6,7 +6,7 @@ title: Write a Blog Post
 ---
 description: We invite members of the Creative Commons (CC) community to write guest posts on <a href="/blog">our technical blog</a>.
 ---
-body:
+body: <!-- disregard: vim syntax highlighting fix_ -->
 
 ## What to write about
 
@@ -78,4 +78,4 @@ Once you have written your post, you can either send it to us (Markdown is easie
 1. Push your code and make a pull request.
 1. Wait for a member of CC's fulltime staff to merge the post into the `main` branch.
 
-Once merged, your new post will automatically be pushed to the production site and a notification containing your post URL will be sent to the `#cc-developers` channel on Slack.
+Once merged, your new post will automatically be pushed to the production site and a notification containing your post URL will be sent to the `# Open Source` channel on Zulip.
