@@ -47,7 +47,4 @@ The extension uses a very outdated version of CC Vocabulary. It will be replaced
 The new Microsoft Edge browser is based on chromium. This paves the way to add support for it thanks to the power and flexibility of the WebExtension API. This will then allow us to also officially release on the [Microsoft Edge Addon Store](https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home).
 
 ### Join the discussion
-If you have any feedback/suggestions or just want to say hi,  please join the `#cc-dev-browser-extension` channel on [slack](/community/#slack). You can also track the progress on the project's [Github](https://github.com/creativecommons/ccsearch-browser-extension) Repository.
-
-
-
+If you have any feedback/suggestions or just want to say hi, please join the `# Open Source` channel on Zulip. You can also track the progress on the project's [Github](https://github.com/cc-archive/ccsearch-browser-extension) Repository. [updated 2025-09-23]

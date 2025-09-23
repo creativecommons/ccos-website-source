@@ -28,7 +28,7 @@ One of the goals of the CC engineering team this year is to build an active deve
 - General cleanup, documentation, and contribution guidelines for our projects.
 - A technical blog.
 
-If you want to stay updated on our work, join our [brand new developer mailing list][mailing-list], the #creativecommons-dev IRC channel on [freenode][freenode-homepage], or the #cc-developers and #cc-gsoc channels on our [Slack community][slack]. And if you’re a student (or know a student), please consider submitting a Google Summer of Code proposal! It’s a great way to get an introduction to open-source, build real-world skills, work on interesting technical challenges, and help advance CC’s mission.
+If you want to stay updated on our work join the discussion in the `# Open Source` channel on our Zulip. And if you’re a student (or know a student), please consider submitting a Google Summer of Code proposal! It’s a great way to get an introduction to open-source, build real-world skills, work on interesting technical challenges, and help advance CC’s mission. [updated 2025-09-23]
 
 ----
 
@@ -41,5 +41,4 @@ If you want to stay updated on our work, join our [brand new developer mailing l
 [cc-search-active-sprint]: https://github.com/orgs/creativecommons/projects/7
 [mailing-list]: https://groups.google.com/a/creativecommons.org/forum/#!forum/cc-developers
 [freenode-homepage]: https://freenode.net/
-[slack]: https://slack-signup.creativecommons.org/
 [original-blog-post]: https://creativecommons.org/2019/03/04/cc-google-summer-of-code-2019/

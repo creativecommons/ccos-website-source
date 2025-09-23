@@ -31,7 +31,7 @@ We’re also presenting the “[State of CC Search][state-of-cc-search]” at th
 
 ### Get involved
 
-Your feedback is valuable, and we invite you to [let us know][cc-search-feedback] what you would like to see improved. You can also join the [#cc-usability][cc-usability] channel on [CC Slack][cc-slack] to keep up with new releases.
+Your feedback is valuable, and we invite you to [let us know][cc-search-feedback] what you would like to see improved. You can also join the `# Open Source` channel on Zulip to keep up with new releases. [updated 2025-09-23]
 
 All of our code, including the code behind CC Search, is open source ([CC Search][cccatalog-frontend], [CC Catalog API][cccatalog-api], [CC Catalog][cccatalog]) and we [welcome community contribution][contributing-code]. If you know how to code, we invite you to [join the growing CC developer community][cc-github-io].
 
@@ -52,8 +52,6 @@ CC Search is also made possible by a number of institutional and individual supp
 [state-of-cc-search]:https://sched.co/MhKv
 [summit]:https://summit.creativecommons.org/
 [cc-search-feedback]:https://search.creativecommons.org/feedback
-[cc-usability]:https://creativecommons.slack.com/messages/CCS9CF2JE/details/
-[cc-slack]:https://wiki.creativecommons.org/wiki/Slack#How_to_join_Slack
 [cccatalog]:https://github.com/cc-archive/cccatalog
 [cccatalog-api]:https://github.com/cc-archive/cccatalog-api
 [cccatalog-frontend]:https://github.com/cc-archive/cccatalog-frontend/

@@ -60,10 +60,10 @@ Here are some aggregated result statistics.
 
 
 
-| Field Name              	|  Value        |
+| Field Name                |  Value        |
 |---------------------------|---------------|
-| Request Count 	        |** 23323     **|
-| Failure Count 	        |**  0 	      **|
+| Request Count             |** 23323     **|
+| Failure Count             |**  0        **|
 | Median Response Time      |** 360 ms    **|
 | Average Response Time     |** 586.289 ms**|
 | Min Response Time         |** 4.03094 ms**|
@@ -71,11 +71,11 @@ Here are some aggregated result statistics.
 | Average Content Size      |** 528.667 ms**|
 | Requests/s                |** 171.754   **|
 | Max Requests/s            |** 214       **|
-| Failures/s              	|** 0         **|
+| Failures/s                |** 0         **|
 
 
 ## Next steps
 In the next blog, we will be covering the long awaited data update and the new architecture.
 
 ## Conclusion
-Overall, I enjoyed working on this feature and it was a great learning experience. This feature has been successfully integrated to the development version, do check it out. Now that you have read this blog till the end, I hope that you enjoyed it. For more information please visit our [Github repo](https://github.com/cc-archive/cccatalog-dataviz/). We are looking forward to hearing from you on linked commons. Our [slack](https://creativecommons.slack.com/channels/cc-dev-cc-catalog-viz) doors are always open to you, see you there. :)
+Overall, I enjoyed working on this feature and it was a great learning experience. This feature has been successfully integrated to the development version, do check it out. Now that you have read this blog till the end, I hope that you enjoyed it. For more information please visit our [GitHub repo](https://github.com/cc-archive/cccatalog-dataviz). We are looking forward to hearing from you on linked commons. Our `# Open Source` Zulip channel doors are always open to you, see you there. :) [updated 2025-09-23]
