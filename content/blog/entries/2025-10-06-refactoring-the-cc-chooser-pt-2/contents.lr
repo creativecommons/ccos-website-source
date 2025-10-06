@@ -14,11 +14,11 @@ pub_date: 2025-10-06
 body:
 This is part 2 of a three part series.
 
-Part 1: History and debt: The historical context that led to the newest 
-refactor and release of the 2025 Chooser.
-Part 2: Specifics and fixes: Breaking down the specifics of technical debt, 
-issues, complexity, contextual-shift misalignment, and fixes.
-Part 3: Future Growth: What’s next for the Chooser, and what directions we 
+- [Part 1: History and debt: The historical context that led to the newest 
+refactor and release of the 2025 Chooser][chooser-refactor-part1].
+- **Part 2: Specifics and fixes: Breaking down the specifics of technical debt, 
+issues, complexity, contextual-shift misalignment, and fixes.**
+- Part 3: Future Growth: What’s next for the Chooser, and what directions we 
 hope to grow it.
 
 The Creative Commons Chooser 2025 refactor offers a number of improvements 
@@ -27,7 +27,259 @@ if the footprint or implementation could be more straightforward and simple and
 then worked from there. The end goal being an application that would be 
 considerably more flexible in its upkeep and advancement.
 
+## Reevaluating core features and use
+
+This was accomplished by first understanding and reestablishing what the core 
+set of functionality the Chooser should provide.
+
+We started with the use cases that were present within the 2020 beta Chooser:
+
+1. Provide a license recommendation
+2. Passively educate the user about licenses and their properties/use-cases
+3. Allow a user, who is an Author, to generate a "mark" in a variety of formats 
+(which generally meets the requirements of the license)
+4. Allow a user, who is a reUser/reMixer, to generate an "attribution" mark 
+when not adequately provided from the original author
+
+From the above four use cases, 1 & 2 were the original core aims of the Chooser.
+
+Use case 3 was added as a mechanism to make applying the choice easier (but if 
+the Author doesn't adequately provide a mark with Attribution Information then 
+reUsers/reMixers may not be able to meet the spirit of the terms of the license 
+(Attribution being required). The Attribution Details being optional is true in 
+that it doesn't block a license recommendation, nor the passive education (1 & 
+2); but if a user is expecting 3 as a main use-case then the Attribution 
+Details become required, colliding with a contextual expectation.
+
+Use case 4 was not an intention of the Chooser, but something users have ended 
+up using it regularly for, since Authors will often only use a general marking 
+statement, such as “This Work is licensed CC-BY”.
+
+Moving forward we would hope to focus on use cases 1-3, with the initial MVP 
+scope of the Chooser refactor prioritizing 1, and then moving into the other 
+two as supporting use cases. Use case 4 will not be a primarily supported use 
+case, but we expect people will continue to use the Chooser for it until a 
+better tool comes along.
+
+## Turning scope into technical methods
+
+The Chooser spirals outward from the core decision pathways in the stepper 
+guiding someone through a series of questions and resulting 
+recommendations.Those pathways have two main branches that fork at the 
+beginning (Do you need help? Yes/No), and regardless of what comes after, 
+eventually provide an appropriate recommendation once all required fields are 
+met. 
+
+From there, the Attribution Fields can be filled out and will populate the 
+Marking section to allow for easier work marking from all the available user 
+supplied data.
+
+This means the decision stepper is the core piece of technical functionality 
+that we would need to stabilize first, and everything else would then build 
+from that standard setup.
+
+We could employ a method of interwoven if/else and/or switch statements that 
+moved through a series of logic gates checking against combinations of 
+question/answer pairings combined together into certain recommendations, but in 
+the case of the Chooser we already know what all the answers are. We know that 
+the recommendation can be 1 of 7 possible legal tools, and that there are two 
+main pathways to get to each of those tools from the “Do you know which 
+license you need? yes/no” question.
+
+If we work backwards from this premise we can standardize these pathways into a 
+format which can describe the complete decision tree, and then work backwards.
+
+That then looks generally like this:
+
+`[step-1-question]/[answer]/[step-2-question]/[answer]/…/&tool=[tool-req-name]
+`
+
+This breaks down into 14 possible correct pathways.
+
+This format lets us describe the pathway state throughout a particular UX, in a 
+uniform and easily parsable format.
+
+From there we can set up the form to build out a state pathway as questions are 
+answered, and when a full path matches a possible correct path end state, a 
+particular recommendation can be accurately made.
+
+Everything else can be assumed to be unknown (non matching).
+
+This gives us a starting point to set up a simple state machine, and check 
+against routinely at specific events and provide recommendations and/or update 
+the interface.
+Reducing the JavaScript footprint and overhead
+
+Once we no longer needed a complex state management engine because we only have 
+14 possible correct “states” we’d like to handle, we could move away from 
+the need for a larger more complex state management framework like Vue.js.
+
+The 2020 beta Chooser utilized Vue.js and its dependency chain, the newer 2025 
+Chooser refactor utilizes a single vanilla JavaScript (JS) file. This resulted 
+in approximately a 98% reduction in the amount of JavaScript!
+
+This also lets us dramatically reduce the dependency chain, which in turn makes 
+the Chooser more secure, more stable, and more maintainable overall.
+
+Running the project through the [SCC tool][scc-tool] shows the newer refactor 
+would be estimated to cost $113,716 to develop, take 6.02 months, and require 
+1.68 people to complete. 
+
+The refactor planning began in 2024, but the total time from initial refactor 
+to completion code-wise was approximately 3 months (half the estimated time), 
+with 1 person working on it part time (due to other obligations and 
+responsibilities).
+
+The original 2020 beta Chooser run through the SCC tool shows an estimated cost 
+to develop of 8.88 months, and requiring 3.16 people to complete. This means 
+not only did the refactor overperform on cost on its own estimations, it 
+reimplemented the same degree of functionality with 1.8% of the code of the 
+original, and accomplished what would have taken 3 people to do in 9 months 
+full-time.
+
+This is good, because the Chooser needs to be more maintainable and stable, but 
+also flexible enough to build out newer features over time.
+
+The state paths and smaller footprint means that we are left with a minimal 
+amount of logic required to alter the visual state of the UX, and to allow a 
+user to move through the stepper, the attribution fields, and the various 
+marking formats and their individual functionalities.
+Embrace native support and semantics
+
+As the decision stepper is the main interaction element, the new markup was 
+first built from there, setting up a semantic form, grouped into fieldsets, and 
+labelled accordingly.
+
+The classes in particular let the markup describe each component in a way that 
+can be more directly tied to the logic the JS will later perform.
+
+There is some measure of dynamic “data + markup” being swapped within the 
+UX based on user selections. Previously Vue.js packages and their dependencies 
+would handle holding onto this data.
+
+In the refactor we opted to make use of the `<template>` element, which let us 
+lean on existing HTML and JS functionality, and also established a foundation 
+from which more robust Web Components could be utilized later if such a need 
+arose, giving us a stable path of complexity to follow down the line.
+
+We also opted to avoid the use of popup modals and tabs, and instead leaned on 
+`<summary>/<details>` elements instead to accomplish similar behavior without the 
+need for JS based behavior. Once again keeping our JS footprint much smaller.
+
+## Improving the UX
+### Reducing friction
+
+We tried to reduce redundancy and better control friction within the UX 
+wherever possible in the 2025 refactor.
+
+The prior 2020 beta Chooser had “Next” and “Back” buttons within the 
+interface which largely had no necessary purpose. The Tool Recommendation was 
+often updated live as fields were filled out, so the only reason to hit the 
+Next button was to get more of the input interface to appear, rather than to 
+get more useful output within the Recommendation area.
+
+With the refactor we removed these buttons, giving the user the ability to move 
+from fieldset to fieldset within the UX without an additional step in the 
+process of input. Whether they move forwards or backwards the UX responds 
+accordingly without the added friction. This lets people move through to a 
+recommendation much more quickly. This change also lets us remove the 
+“Reset” button as well, since moving backwards through the fieldsets will 
+reset lower fieldset values automatically. We also get a boost in accessibility 
+with its removal, since it’s not advised as a solid use case within 
+accessible interfaces, due to it being too easily clicked.
+
+“The Web would be a happier place if virtually all Reset buttons were 
+removed. This button almost never helps users, but often hurts them.” (Reset 
+and Cancel Buttons - NN/G)
+
+We also removed the final Done button and its adjacent shaking behavior. The 
+“Done” button had an erroneous purpose, since the recommendation was 
+already available on the right, and it was unclear why the “Done” button 
+would be necessary to reach a final UX state.
+
+The shaking behavior is also generally a UX convention deployed to indicate 
+that an error has occurred or that inadequate or incorrect information has been 
+input within a form. The original aim with the prior chooser was to draw 
+attention to the Tool Rec and marking areas being “finished”, but instead 
+communicated that some form of error had occurred. This was reported multiple 
+times by users, so this behavior was removed entirely to make things less 
+confusing and more clear.
+
+The shaking behavior was accompanied by a form of “scroll jacking” which 
+would scroll the user’s viewport back to the top so the shaking behavior 
+could be visible when it occurred. This was also removed.
+
+Overall, we also tried to remove the number of steps, clicks, or choices a user 
+might have to move through to get to a usable recommendation where possible. 
+One clear example of this is prepopulating the first question with the default 
+of “Yes”. This means returning users who are already familiar with the 
+choice can proceed more swiftly without adding any additional steps for those 
+that still need help.
+
+Attribution marking now shows up as soon as a tool recommendation has been 
+provided, linking the two together better contextually, and not as a later 
+phase of the form’s state lifecycle.
+
+### Adding friction
+
+To make the UX more usable we also added friction where it made sense. The 
+pathway that leads to a CC0 recommendation no longer provides a recommendation 
+without checking the two acknowledgement checkboxes, to ensure the user is 
+given the chance to fully understand what they are doing by utilizing CC0.
+
+We also leaned more on the “Need Help?” section to provide deeper 
+explanations rather than adding more information in other areas. This 
+section’s newer placement lets it serve as a way to drill down further, 
+without having to increase the density of information in the fieldsets.
+Better related UX element binding and separation
+
+Despite being a rather simple interface the Chooser offers several overlapping 
+use cases, and as such we tried to find subtle ways to bind distinct areas of 
+input to related areas of output either with attention focus, or with some 
+measure of connective mechanisms.
+
+The Attribution fields include descriptive placeholder data, which also shows 
+up within the various marking formats helping to bind the two areas together as 
+having an input/output relationship not just generally, but also more 
+specifically for the individual input fields and output tokens. This allows a 
+user to start with the Attribution fields and see the results in the Marking 
+formats, or first encounter the Marking Formats after reaching a Tool 
+Recommendation, and then make a connection back to the Attribution Fields as 
+the input source for them. The goal being a bi-directional relationship that is 
+intuitive.
+
+Another area where this shows up is with the Tool Recommendation itself. When 
+it appears after a successful set of fieldsets align it is distinctive in its 
+appearance, but it also has a “waiting for required fields” placeholder 
+element for the zero state of the UX, so that the shift is more intuitive that 
+results will appear here once input, and that they are also distinct visually 
+from the Marking Formats section below.
+
+## Increasing plasticity
+
+The final result of the refactor is a dramatically smaller and more manageable 
+codebase, a much narrower pathway of function and logic, better integration 
+with the Vocabulary Design system, and a robust use of semantic accessible 
+markup. This radical reduction in the code footprint and complexity overall 
+means the refactored 2025 Chooser is now much more agile and can more easily 
+grow or pivot in new directions. 
+
+## Closing
+
+Despite the number of improvements throughout the refactor, one of the key 
+goals was clearing out enough bitrot and complexity to make room for the 
+project to grow sensibly and responsibly again. We weren’t just trying to 
+improve the Chooser for a static launch, but to reposition it so that it could 
+once again grow more easily in the directions that would benefit its users most.
+
+We already have a bit of a roadmap in mind, and we’ll get into that in the 
+final installment, **Part 3: Future Growth: What’s next for the Chooser**, and 
+what directions we hope to grow it.
+
+
 
 [cc-website]: https://creativecommons.org/share-your-work/
 [chooser]: https://creativecommons.org/choose/
+[chooser-refactor-part1]: /blog/entries/2025-07-11-refactoring-the-cc-chooser-pt-1/
 [open-verse]: https://openverse.org/
+[scc-tool]: https://github.com/boyter/scc
