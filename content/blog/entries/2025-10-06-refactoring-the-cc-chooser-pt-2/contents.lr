@@ -1,0 +1,33 @@
+title: Refactoring and Releasing the new CC Chooser: Part 2
+---
+categories:
+open-source
+cc-chooser
+cc-vocabulary
+---
+author: sara
+---
+series: 2025-chooser-refactor
+---
+pub_date: 2025-10-06
+---
+body:
+This is part 2 of a three part series.
+
+Part 1: History and debt: The historical context that led to the newest 
+refactor and release of the 2025 Chooser.
+Part 2: Specifics and fixes: Breaking down the specifics of technical debt, 
+issues, complexity, contextual-shift misalignment, and fixes.
+Part 3: Future Growth: What’s next for the Chooser, and what directions we 
+hope to grow it.
+
+The Creative Commons Chooser 2025 refactor offers a number of improvements 
+across the surface of the application. Wherever possible we tried to consider 
+if the footprint or implementation could be more straightforward and simple and 
+then worked from there. The end goal being an application that would be 
+considerably more flexible in its upkeep and advancement.
+
+
+[cc-website]: https://creativecommons.org/share-your-work/
+[chooser]: https://creativecommons.org/choose/
+[open-verse]: https://openverse.org/
