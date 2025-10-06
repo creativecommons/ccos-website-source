@@ -163,7 +163,8 @@ from which more robust Web Components could be utilized later if such a need
 arose, giving us a stable path of complexity to follow down the line.
 
 We also opted to avoid the use of popup modals and tabs, and instead leaned on 
-`<summary>/<details>` elements instead to accomplish similar behavior without the 
+`<summary>/<details>` elements instead to accomplish similar behavior without 
+the 
 need for JS based behavior. Once again keeping our JS footprint much smaller.
 
 ## Improving the UX
@@ -266,6 +267,11 @@ grow or pivot in new directions.
 
 ## Closing
 
+Overall, the code footprint is now **57.52 times smaller**! If the refactored 
+codebase's footprint was Earth, then the old codebase's footprint would be Neptune, 
+since Neptune's volume is 58 times larger than Earth ([you can fit 58 Earths 
+within Neptune][neptune-earth])
+
 Despite the number of improvements throughout the refactor, one of the key 
 goals was clearing out enough bitrot and complexity to make room for the 
 project to grow sensibly and responsibly again. We weren’t just trying to 
@@ -273,13 +279,13 @@ improve the Chooser for a static launch, but to reposition it so that it could
 once again grow more easily in the directions that would benefit its users most.
 
 We already have a bit of a roadmap in mind, and we’ll get into that in the 
-final installment, **Part 3: Future Growth: What’s next for the Chooser**, and 
+final installment, **Part 3: Future Growth: What’s next for the Chooser**, 
+and 
 what directions we hope to grow it.
-
-
 
 [cc-website]: https://creativecommons.org/share-your-work/
 [chooser]: https://creativecommons.org/choose/
 [chooser-refactor-part1]: /blog/entries/2025-07-11-refactoring-the-cc-chooser-pt-1/
+[neptune-earth]: https://www.space.com/41-neptune-the-other-blue-planet-in-our-solar-system.html#:~:text=Neptune%20is%20the%20eighth%20and,Earth's%20volume%2C%20according%20to%20NASA.
 [open-verse]: https://openverse.org/
 [scc-tool]: https://github.com/boyter/scc
