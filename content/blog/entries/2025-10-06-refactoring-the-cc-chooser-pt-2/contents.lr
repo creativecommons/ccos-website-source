@@ -12,14 +12,9 @@ series: 2025-chooser-refactor
 pub_date: 2025-10-06
 ---
 body:
-This is part 2 of a three part series.
+This blog is part two of a three part series: [Refactoring and Releasing the 
+new CC Chooser](/blog/series/2025-chooser-refactor/).
 
-- [Part 1: History and debt: The historical context that led to the newest 
-refactor and release of the 2025 Chooser][chooser-refactor-part1].
-- **Part 2: Specifics and fixes: Breaking down the specifics of technical debt, 
-issues, complexity, contextual-shift misalignment, and fixes.**
-- Part 3: Future Growth: What’s next for the Chooser, and what directions we 
-hope to grow it.
 
 The Creative Commons Chooser 2025 refactor offers a number of improvements 
 across the surface of the application. Wherever possible we tried to consider 
