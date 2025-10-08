@@ -12,6 +12,9 @@ series: 2025-chooser-refactor
 pub_date: 2025-07-11
 ---
 body:
+This blog is part one of a three part series: [Refactoring and Releasing the 
+new CC Chooser](/blog/series/2025-chooser-refactor/).
+
 We’re excited to announce that we have finally moved the Chooser from a 
 long-term beta state into a finished and stable v1.0. But it certainly hasn’t 
 been a straight-line. The Chooser has been met with a lot of challenges along 
