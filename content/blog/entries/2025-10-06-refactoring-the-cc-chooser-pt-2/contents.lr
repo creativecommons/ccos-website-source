@@ -103,7 +103,8 @@ Everything else can be assumed to be unknown (non matching).
 This gives us a starting point to set up a simple state machine, and check 
 against routinely at specific events and provide recommendations and/or update 
 the interface.
-Reducing the JavaScript footprint and overhead
+
+## Reducing the JavaScript footprint and overhead
 
 Once we no longer needed a complex state management engine because we only have 
 14 possible correct “states” we’d like to handle, we could move away from 
@@ -139,7 +140,8 @@ The state paths and smaller footprint means that we are left with a minimal
 amount of logic required to alter the visual state of the UX, and to allow a 
 user to move through the stepper, the attribution fields, and the various 
 marking formats and their individual functionalities.
-Embrace native support and semantics
+
+## Embrace native support and semantics
 
 As the decision stepper is the main interaction element, the new markup was 
 first built from there, setting up a semantic form, grouped into fieldsets, and 
@@ -158,7 +160,7 @@ from which more robust Web Components could be utilized later if such a need
 arose, giving us a stable path of complexity to follow down the line.
 
 We also opted to avoid the use of popup modals and tabs, and instead leaned on 
-`<summary>/<details>` elements instead to accomplish similar behavior without 
+`<summary>`/`<details>` elements instead to accomplish similar behavior without 
 the 
 need for JS based behavior. Once again keeping our JS footprint much smaller.
 
@@ -182,13 +184,13 @@ recommendation much more quickly. This change also lets us remove the
 “Reset” button as well, since moving backwards through the fieldsets will 
 reset lower fieldset values automatically. We also get a boost in accessibility 
 with its removal, since it’s not advised as a solid use case within 
-accessible interfaces, due to it being too easily clicked.
+accessible interfaces, [due to it being too easily clicked][reset-accessibility].
 
-“The Web would be a happier place if virtually all Reset buttons were 
-removed. This button almost never helps users, but often hurts them.” (Reset 
-and Cancel Buttons - NN/G)
+> “The Web would be a happier place if virtually all Reset buttons were 
+removed. This button almost never helps users, but often hurts them.” ([Reset 
+and Cancel Buttons - NN/G][reset-accessibility])
 
-We also removed the final Done button and its adjacent shaking behavior. The 
+We also removed the final "Done" button and its adjacent shaking behavior. The 
 “Done” button had an erroneous purpose, since the recommendation was 
 already available on the right, and it was unclear why the “Done” button 
 would be necessary to reach a final UX state.
@@ -227,7 +229,8 @@ We also leaned more on the “Need Help?” section to provide deeper
 explanations rather than adding more information in other areas. This 
 section’s newer placement lets it serve as a way to drill down further, 
 without having to increase the density of information in the fieldsets.
-Better related UX element binding and separation
+
+### Better related UX element binding and separation
 
 Despite being a rather simple interface the Chooser offers several overlapping 
 use cases, and as such we tried to find subtle ways to bind distinct areas of 
@@ -283,4 +286,5 @@ what directions we hope to grow it.
 [chooser-refactor-part1]: /blog/entries/2025-07-11-refactoring-the-cc-chooser-pt-1/
 [neptune-earth]: https://www.space.com/41-neptune-the-other-blue-planet-in-our-solar-system.html#:~:text=Neptune%20is%20the%20eighth%20and,Earth's%20volume%2C%20according%20to%20NASA.
 [open-verse]: https://openverse.org/
+[reset-accessibility]: https://www.nngroup.com/articles/reset-and-cancel-buttons/
 [scc-tool]: https://github.com/boyter/scc
