@@ -161,6 +161,26 @@ on this site:
 [ccos-labels]: /contributing-code/repo-labels/
 
 
+### File permissions
+
+Please note the following best practices for file permissions:
+- `0777` - Anyone can read/write/execute
+  - ⚠️  Never use these permissions
+- `0755` – Owner can read/write/execute, group and others can read/execute
+  - Should be used for scripts that are executed from the command line
+  - Shouldn't ever be used for plain text files, images, etc.
+- `0644` - Owner can read/write, group and others can read-only
+  - Default on most systems
+
+References:
+- [How to Set Permissions in Linux: A Guide to chmod and chown | DigitalOcean][do-chmod]
+- [Mastering Permissions in Git: A Complete Guide to Adding chmod Modes in Your
+  Repository – TheLinuxCode][tlc-chmod]
+
+[do-chmod]: https://www.digitalocean.com/community/tutorials/how-to-set-permissions-linux
+[tlc-chmod]: https://thelinuxcode.com/add-chmod-permissions-to-file-in-git/
+
+
 ## Docker
 
 [Docker (software) - Wikipedia][wikipedia-docker]:
