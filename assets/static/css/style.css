@@ -348,33 +348,60 @@ main > aside.sidebar nav.filter-menu ul li.current a {
   font-size: 1rem;
 }
 
+.home-page .topic-summary {
+  grid-column: 2 / span 9;
+  display: grid;
+  grid-template:
+      "title graphic graphic"
+      "description graphic graphic"
+      "button graphic graphic";
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 6.4em;
+  gap: 0 4em;
+}
+
+.home-page .topic-summary h2 {
+  grid-area: title;
+
+  font-size: 2.4em;
+}
+
+.home-page .topic-summary img {
+  width: 100%;
+  grid-area: graphic;
+  margin-top: 3.1em;
+}
+
+.home-page .topic-summary figure {
+  width: 100%;
+  grid-area: graphic;
+  margin: 0;
+  padding: 0;
+  margin-top: .6em;
+}
+
+.home-page .topic-summary .description {
+  grid-area: description;
+}
+
+.home-page .topic-summary .description p {
+  margin-bottom: 1em;
+}
+
+.home-page .topic-summary .description a {
+  display: inline;
+  box-sizing: border-box;
+  grid-column-start: 1;
+  grid-row-start: 3;
+
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
 
 @media (min-width: 1024px) {
-  .hero-section img {
-    width: auto;
-  }
-
-  .hero-section {
-    display: grid;
-    grid-column: 2 / span 9;
-    grid-template:
-        "title title title"
-        "description description description "
-        "graphic graphic graphic";
-
-    margin-bottom: 6.4em;
-    gap: 0 4em;
-  }
-
-  .hero-section h2 {
-    grid-area: title;
-  }
-
-  .hero-description {
-    grid-area: description;
-    width: 41.67%
-  }
-
   .projects ul {
     grid-template-columns: 1fr 1fr;
 
@@ -431,3 +458,14 @@ main > aside.sidebar nav.filter-menu ul li.current a {
     margin-top: -6rem;
   }
 }
+
+@media (max-width: 900px) {
+  .home-page .topic-summary {
+    display: block;
+  }
+
+  .home-page .topic-summary figure {
+    display: none;
+  }
+}
+
