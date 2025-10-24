@@ -458,3 +458,14 @@ main > aside.sidebar nav.filter-menu ul li.current a {
     margin-top: -6rem;
   }
 }
+
+@media (max-width: 900px) {
+  .home-page .topic-summary {
+    display: block;
+  }
+
+  .home-page .topic-summary figure {
+    display: none;
+  }
+}
+
