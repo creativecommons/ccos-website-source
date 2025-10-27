@@ -11,59 +11,57 @@ for pull requests; following them will expedite the process of merging your
 code in.
 [github-pr]: https://help.github.com/en/articles/about-pull-requests
 ---
-body:
+body: <!-- disregard: vim syntax highlighting fix_ -->
 
 Read and follow the contributing guidelines and code of conduct for the project. Here are screenshots of where to find them for [first time contributors](first-time-contributor-resources.png) and [previous contributors](previous-contributor-resources.png).
 
-We aim to review pull requests within five business days.<a href="#footnote-1"><strong>*</strong></a>. If it has been over five business days and you have not received any feedback, feel free to follow up with us.
+We aim to review pull requests within five business days.[^business-days] If it has been over five business days and you have not received any feedback, feel free to follow up with us.
 
-* **Make A Branch**
-    * Please create a separate branch for each issue that you're working on. Do not make changes to the default branch (e.g. `master`, `develop`) of your fork.
-* **Push Your Code ASAP** 
-    * Push your code as soon as you can. Follow the "[early and often](https://www.worklytics.co/blog/commit-early-push-often/)" rule. 
-    * Make a pull request as soon as you can and **mark the title with a "[WIP]"**. You can create a [draft pull request](https://help.github.com/en/articles/about-pull-requests#draft-pull-requests).
-    <br/>
-    [Screenshot: How to create draft PR?](draft_pr.gif)
-* **Describe Your Pull Request**
-    * Use the format specified in pull request template for the repository. **Populate the stencil completely** for maximum verbosity.
-        * Tag the actual issue number by replacing `#[issue_number]` e.g. `#42`.
+- **Make A Branch**
+    - Please create a separate branch for each issue that you're working on. Do not make changes to the default branch (e.g. `master`, `develop`) of your fork.
+- **Push Your Code ASAP**
+    - Push your code as soon as you can. Follow the "[early and often](https://www.worklytics.co/blog/commit-early-push-often/)" rule.
+    - Make a pull request as soon as you can and **mark the title with a "[WIP]"**. You can create a [draft pull request](https://help.github.com/en/articles/about-pull-requests#draft-pull-requests).
+      - [Screenshot: How to create draft PR?](draft_pr.gif)
+- **Describe Your Pull Request**
+    - Use the format specified in pull request template for the repository. **Populate the stencil completely** for maximum verbosity.
+        - Tag the actual issue number by replacing `#[issue_number]` e.g. `#42`.
           This closes the issue when your PR is merged.
-        * Tag the actual issue author by replacing `@[author]` e.g. `@issue_author`.
+        - Tag the actual issue author by replacing `@[author]` e.g. `@issue_author`.
           This brings the reporter of the issue into the conversation.
-        * Mark the tasks off your checklist by adding an `x` in the `[ ]` e.g. `[x]`.
+        - Mark the tasks off your checklist by adding an `x` in the `[ ]` e.g. `[x]`.
           This checks off the boxes in your to-do list. The more boxes you check, the better.
-    * Describe your change in detail. Too much detail is better than too little.
-    * Describe how you tested your change.
-    * Check the Preview tab to make sure the Markdown is correctly rendered and that all tags and references are linked. If not, go back and edit the Markdown.
-    <br/>
-    [Screenshot: Populated pull request](populated_pr.png)
-* **Request Review**
-    * Once your PR is ready, **remove the "[WIP]" from the title** and/or change it from a draft PR to a regular PR.
-    * If a specific reviewer is not assigned automatically, please [request a review](https://help.github.com/en/articles/requesting-a-pull-request-review) from the project maintainer and any other interested parties manually.
-* **Incorporating feedback**
-    * If your PR gets a 'Changes requested' review, you will need to address the feedback and update your PR by pushing to the same branch. You don't need to close the PR and open a new one.
-    * Be sure to **re-request review** once you have made changes after a code review.
-    <br/>
-    [Screenshot: How to request re-review?](rereview.png)
-    * Asking for a re-review makes it clear that you addressed the changes that were requested and that it's waiting on the maintainers instead of the other way round.
-    <br/>
-    [Screenshot: Difference between 'Changes requested' and 'Review required'](difference.png)
+    - Describe your change in detail. Too much detail is better than too little.
+    - Describe how you tested your change.
+    - Check the Preview tab to make sure the Markdown is correctly rendered and that all tags and references are linked. If not, go back and edit the Markdown.
+      - [Screenshot: Populated pull request](populated_pr.png)
+- **Request Review**
+    - Once your PR is ready, **remove the "[WIP]" from the title** and/or change it from a draft PR to a regular PR.
+      - To be ready, any code must execute and complete successfully on your machine
+      - To be ready, you should have already reviewed the **Files changed** tab for unintended files and other obvious mistakes
+    - If a specific reviewer is not assigned automatically, please [request a review](https://help.github.com/en/articles/requesting-a-pull-request-review) from the project maintainer and any other interested parties manually.
+- **Incorporating feedback**
+    - If your PR gets a 'Changes requested' review, you will need to address the feedback and update your PR by pushing to the same branch. You don't need to close the PR and open a new one.
+    - Be sure to **re-request review** once you have made changes after a code review.
+      - [Screenshot: How to request re-review?](rereview.png)
+    - Asking for a re-review makes it clear that you addressed the changes that were requested and that it's waiting on the maintainers instead of the other way round.
+      - [Screenshot: Difference between 'Changes requested' and 'Review required'](difference.png)
 
 
 ## Code guidelines
 
-* Write comprehensive and robust tests that cover the changes you've made in your work.
-* Follow the appropriate code style standards for the language and framework you're using (e.g. PEP 8 for Python).
-* Write readable code – keep functions small and modular and name variables descriptively.
-* Document your code thoroughly.
-* Make sure all the existing tests pass.
-* User-facing code should support the following browsers:
-  * Chrome (Webkit-Blink / 22+)
-  * Firefox (Gecko / 28+)
-  * Edge (Chromium based / 12+)
-  * Opera (Chromium-Blink / 12.1+)
-  * Safari (Apple’s Webkit / 7+)
-  * IE 11 (Trident)
+- Write comprehensive and robust tests that cover the changes you've made in your work.
+- Follow the appropriate code style standards for the language and framework you're using (e.g. PEP 8 for Python).
+- Write readable code – keep functions small and modular and name variables descriptively.
+- Document your code thoroughly.
+- Make sure all the existing tests pass.
+- User-facing code should support the following browsers:
+  - Chrome (Webkit-Blink / 22+)
+  - Firefox (Gecko / 28+)
+  - Edge (Chromium based / 12+)
+  - Opera (Chromium-Blink / 12.1+)
+  - Safari (Apple’s Webkit / 7+)
+  - IE 11 (Trident)
 
 
-<p class="caption"><a name="footnote-1" class="has-color-dark-slate-gray"><strong>*</strong></a> CC staff work Monday through Friday and are not available on weekends and national holidays (the specific holidays observed vary based on the person's location). CC is closed between Christmas Eve and New Years' Day every year and for a few days following the CC Global Summit. Also, our availability during events such as the CC Global Summit and our biannual staff meetups is limited.</p>
+[^business-days]: CC staff work Monday through Friday and are not available on weekends and national holidays (the specific holidays observed vary based on the person's location). CC is closed between Christmas Eve and New Years' Day every year. Also, our availability during events such as staff meetups is limited.
