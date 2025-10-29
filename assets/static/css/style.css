@@ -468,4 +468,31 @@ main > aside.sidebar nav.filter-menu ul li.current a {
     display: none;
   }
 }
+/* Content list typography and spacing fixes */
+main .content ul,
+main .content ol {
+  font-size: inherit;
+  line-height: 1.5;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 
+/* Avoid extra space after nested lists by collapsing bottom margin */
+main .content ul ul,
+main .content ul ol,
+main .content ol ul,
+main .content ol ol {
+  margin-top: 0.5rem;
+}
+
+/* Consistent list item sizing and compact item spacing */
+main .content li {
+  font-size: inherit;
+  margin-bottom: 0.5rem;
+}
+
+/* If a list item ends with a nested list, avoid double-spacing after it */
+main .content li>ul:last-child,
+main .content li>ol:last-child {
+  margin-bottom: 0;
+}
