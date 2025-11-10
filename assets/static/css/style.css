@@ -2,6 +2,23 @@
 @import "/static/vendor/datatable/datatables.css" layer(datatables);
 @import "/static/css/issue-finder.css" layer(issue-finder);
 
+
+main .content ul, main .content ol {
+  margin: 0 0 2em 1.5em;
+
+  font-size: 1.2rem;
+}
+
+main .content ul ul, main .content ol ol, main .content ul ol, main .content ol ul {
+  margin-bottom: 0;
+
+  /* font-size: 1rem; */
+}
+
+main .content ul li, main .content ol li {
+  margin: .4rem 0;
+}
+
 /* Homepage Styles */
 
 .home-page main {
