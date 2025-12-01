@@ -1,0 +1,91 @@
+title: Avoiding generative AI development tools
+---
+categories:
+community
+open-source
+---
+author: TimidRobot
+---
+series:
+---
+pub_date: 2025-12-01
+---
+body:
+
+At this time, the Creative Commons (CC) **Technology team** has concluded that
+generative AI development tooling does not pass a cost/benefit analysis *for
+contributing to our open source projects*. Until further notice, we will not
+accept CC Open Source submissions that include code or content generated with
+AI.
+
+
+## Overhyped
+
+Generative AI productivity claims are often championed (and paid for) by those
+who reap a material benefit from adoption of AI tooling. Adoption rates are
+inflated by a lack of choice when AI tools are included by default and often
+cannot be disabled (EditorDavid, 2025). We’ve observed that arguments for their
+adoption too often appeal to a fear of missing out or potential future
+benefits.
+
+
+## Inefficiency and slop
+
+Our current evaluation of generative AI development tooling is that it does not
+offer a benefit to our open source projects nor to the user of the AI tooling.
+Indeed, "when developers use AI tools, they take 19% longer than without—AI
+makes them slower." (METR, 2025). A recent report from MIT NANDA indicates
+"that 95% of organizations are getting zero return [from generative AI]."
+(Challapally et al., 2025). AI tooling enables the creation of spurious work
+for reviewers. For example, see the following comment on an AI slop
+submission:
+
+> This code does not call curl. This is not a "POC" of anything than [sic]
+> suggesting you did this with an AI and that you do not understand what you're
+> doing here.
+> <br>Please identify the exact line of curl source code that has the problem
+> you say exists.
+> <br>(badger, 2025)
+
+
+## Counterproductive
+
+Especially for our contributors, when we participate in work programs like
+Google Summer of Code (GSoC) or Outreachy, AI tools train the wrong skills. We
+want contributors who are learning the technologies that underpin our open
+source projects.
+
+> I listened to an industry representative say that he wants students to have
+> “design thinking and the ability to ask questions” without recognizing that
+> the student use of AI tools he advocates will stunt their critical thinking
+> skills, making it impossible for them to ask questions and do interesting
+> “design thinking.”.
+> <br>(Valeries, 2025)
+
+## Responsibility and solidarity
+
+In addition to concerns with how AI development tools might negatively impact
+our day-to-day, the Technology team has concerns about how generative AI
+technology is created and implemented/deployed. Even if generative AI
+development tools were actually helpful, the Technology team would be reluctant
+to use tools that were developed in a way that harmed others, that are funded
+by deployments/implementations that harm others, and that offer short-term
+benefits at an existential cost.
+
+## References
+
+- badger. (2025, September 16). Comment on Stack Buffer Overflow in cURL Cookie
+  Parsing Leads to RCE. curl.
+  [https://hackerone.com/reports/3340109#activity-36894924](https://hackerone.com/reports/3340109#activity-36894924)
+- Challapally, A., Pease, C., Raskar, R., Chari, P., (2025, July). The GenAI
+  Divide: STATE OF AI IN BUSINESS 2025. MIT NANDA.
+  [https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai_report_2025.pdf](https://www.artificialintelligence-news.com/wp-content/uploads/2025/08/ai_report_2025.pdf)
+- EditorDavid. (2025, May 31). GitHub Users Angry at the Prospect of AI-Written
+  Issues From Copilot. Slashdot.
+  [https://developers.slashdot.org/story/25/06/01/0049240/github-users-angry-at-the-prospect-of-ai-written-issues-from-copilot](https://developers.slashdot.org/story/25/06/01/0049240/github-users-angry-at-the-prospect-of-ai-written-issues-from-copilot)
+- METR. (2025, July 10). Measuring the Impact of Early-2025 AI on Experienced
+  Open-Source Developer Productivity. METR.
+  [https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/)
+- Valeries, Barr. (2025, August 29). Feeling Cranky About AI and CS Education.
+  Communications of the ACM.
+  [https://cacm.acm.org/blogcacm/feeling-cranky-about-ai-and-cs-education/](https://cacm.acm.org/blogcacm/feeling-cranky-about-ai-and-cs-education/)
