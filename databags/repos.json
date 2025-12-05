@@ -67,7 +67,7 @@
                 "url": "https://github.com/creativecommons/cc-assets/blob/main/COPYING.md"
             },
             "name": "cc-assets",
-            "slack": "cc-developers",
+            "slack": "",
             "technologies": [
                 "PNG",
                 "SVG"
@@ -88,7 +88,7 @@
                 "url": "https://github.com/creativecommons/cc-legal-tools-app/blob/main/LICENSE"
             },
             "name": "cc-legal-tools-app",
-            "slack": "cc-dev-legal-tools",
+            "slack": "",
             "technologies": [
                 "Django",
                 "Python"
@@ -109,7 +109,7 @@
                 "url": "https://github.com/creativecommons/cc-legal-tools-data/blob/main/COPYING"
             },
             "name": "cc-legal-tools-data",
-            "slack": "cc-dev-legal-tools",
+            "slack": "",
             "technologies": [
                 "Gettext",
                 "HTML",
@@ -131,7 +131,7 @@
                 "url": "https://github.com/creativecommons/cc-license-chooser/blob/main/LICENSE"
             },
             "name": "cc-license-chooser",
-            "slack": "cc-dev-license-chooser",
+            "slack": "",
             "technologies": [
                 "JavaScript",
                 "Python"
@@ -352,7 +352,7 @@
                 "url": "https://github.com/creativecommons/data-science-playground/blob/main/LICENSE"
             },
             "name": "data-science-playground",
-            "slack": "cc-developers",
+            "slack": "",
             "technologies": [
                 "Python",
                 "Apache Spark",
@@ -437,7 +437,7 @@
                 "url": "https://github.com/creativecommons/legaldb/blob/main/LICENSE"
             },
             "name": "legaldb",
-            "slack": "cc-dev-legal-database",
+            "slack": "",
             "technologies": [
                 "Python",
                 "Django",
@@ -507,7 +507,7 @@
                 "url": "https://github.com/creativecommons/og-image-generator/blob/main/LICENSE"
             },
             "name": "og-image-generator",
-            "slack": "cc-developers",
+            "slack": "",
             "technologies": [
                 "JavaScript"
             ],
@@ -570,7 +570,7 @@
                 "url": "https://github.com/creativecommons/quantifying/blob/main/LICENSE"
             },
             "name": "quantifying",
-            "slack": "cc-dev-quantifying",
+            "slack": "",
             "technologies": [
                 "Python"
             ],
@@ -812,7 +812,7 @@
                 "url": "https://github.com/creativecommons/wp-plugin-cc-global-network/blob/main/LICENSE"
             },
             "name": "wp-plugin-cc-global-network",
-            "slack": "cc-dev-wordpress",
+            "slack": "",
             "technologies": [
                 "PHP",
                 "WordPress"
@@ -833,7 +833,7 @@
                 "url": "https://github.com/creativecommons/wp-plugin-creativecommons-website/blob/main/LICENSE"
             },
             "name": "wp-plugin-creativecommons-website",
-            "slack": "cc-dev-wordpress",
+            "slack": "",
             "technologies": [
                 "Javascript",
                 "React",
@@ -871,7 +871,7 @@
                 "url": "https://github.com/creativecommons/wp-theme-cc-commoners/blob/main/LICENSE"
             },
             "name": "wp-theme-cc-commoners",
-            "slack": "cc-dev-wordpress",
+            "slack": "",
             "technologies": [
                 "PHP",
                 "WordPress"
@@ -937,7 +937,7 @@
                 "url": "https://github.com/creativecommons/wp-theme-summit/blob/main/LICENSE"
             },
             "name": "wp-theme-summit",
-            "slack": "cc-dev-wordpress",
+            "slack": "",
             "technologies": [
                 "PHP",
                 "WordPress"
