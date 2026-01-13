@@ -8,6 +8,7 @@ black = ">=24.3.0"
 flake8 = "*"
 isort = "*"
 lektor = ">=3.3.11"
+urllib3 = ">=2.6.3"  # Ensure dependency is secure
 
 [requires]
 python_version = "3.11"
