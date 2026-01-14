@@ -564,7 +564,7 @@
             "english_name": "Quantifying the Commons",
             "featured": true,
             "id": 533860990,
-            "language": "Jupyter Notebook",
+            "language": "Python",
             "license": {
                 "name": "MIT License",
                 "url": "https://github.com/creativecommons/quantifying/blob/main/LICENSE"
