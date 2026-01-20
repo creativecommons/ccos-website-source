@@ -9,7 +9,7 @@ body: <!-- disregard: vim syntax highlighting fix_ -->
 
 ## Programs
 
-Creative Commons (CC) regularly participates in the following work programs
+Creative Commons (CC) ~~regularly~~ participates in the following work programs
 that offer grants or stipends:
 
 
@@ -22,14 +22,15 @@ CC isn't currently participating in Google Season of Docs (GSoD).
 
 ### Google Summer of Code
 
-CC is planning to participate in Google Summer of Code (GSoC) 2026.
+CC isn't planning to participate in Google Summer of Code (GSoC).
 
 - [Program website](https://summerofcode.withgoogle.com/)
 
 
 ### Outreachy
 
-CC is participating in the December 2025 cohort.
+CC isn't planning to participate in future Outreachy cohorts. CC is currently
+participating in the December 2025 cohort.
 
 - [Program website](https://www.outreachy.org/)
 - [CC's Outreachy page][outreachycc]
@@ -53,19 +54,6 @@ CC is participating in the December 2025 cohort.
 - **[History](/programs/history/)**: This page has historical information on
   CC's open source work programs, including links to prior contributors' blog
   posts.
-
-
-## Project Leads
-
-| Name | Pronouns | Zulip Username | Time Zone |
-| ---- | -------- | -------------- | --------- |
-| [Sara][authorsara] | she/her | `@sara` | Central (CDT UTC-05:00 / CST UTC-06:00) |
-| [Shafiya][authorshafiya] | she/her | `@Shafiya Heena` | Eastern (EDT UTC-04:00 / EST UTC-05:00) |
-| [Timid Robot][authortimidrobot] | they/them | `@Timid Robot` | Central European  (CET UTC+01:00 / CEST UTC+02:00) |
-
-[authorsara]: /blog/authors/sara/
-[authorshafiya]: /blog/authors/shafiya/
-[authortimidrobot]: /blog/authors/TimidRobot/
 
 
 ## Other Opportunities
