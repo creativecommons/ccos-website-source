@@ -4,6 +4,7 @@ categories:
 open-source
 collaboration
 community
+quantifying-the-commons
 ---
 author: Oreoluwa
 ---
@@ -20,28 +21,28 @@ key takeaways from the first half of my internship.
 
 Quantifying the commons aims to track and analyse the trends of the creative
 commons legal tools. Who is using these legal tools, where, why, how? We want to
-measure the impact of these tools. For the past 25 years, the efforts that have
+measure the impact of these tools. For the past 25 years, efforts have
 been made by the organisation to democratize knowledge and content on the
 internet. We want to identify our growth, gaps and areas for development.
 
-### A brief history I learnt about:
+### A brief history I learnt about
 
 After watching a documentary recommended by my mentor. I learnt about a great
 man called Aaron Schwartz who is also known as internet's own boy. He believed
 knowledge should be free and accessible to everyone. His ideas helped inspire
 movements like Creative Commons, which allows creators to share their work
-legally while choosing how others can use it. I reasonate well with this
+legally while choosing how others can use it. I resonate well with this
 movement because I realised how much knowledge I have gained from reading
-articles and my random searches on the internet. I feel really exicted to be
+articles and my random searches on the internet. I feel really excited to be
 contributing to this mission.
 
-## Progress so far:
+## Progress so far
 
-### Aligning the project better to the script requirements:
+### Aligning the project better to the script requirements
 
-- **One of the main script requirement is making the script repeatable:**\ 
+- #### One of the main script requirement is making the script repeatable:
 
-We use github actions to automate our python script on a quarterly basis. So
+We use Github Actions to automate our python script on a quarterly basis. So
 there is an execution schedule that runs for 45 days or less. For better
 efficiency, scripts must exit early if a task is already completed and must
 reliably continue at the appropriate spot if multiple runs are required and not
@@ -51,34 +52,34 @@ or day. So we continue to fetch after the specified hour or day. During my work
 on the project, I implemented a mechanism that checks for completion of fetch
 scripts and allows the script to continue from when it stops during any
 interruption. I integrated a workflow that checks if an output has been
-generated previously to avoid regeneration or running of script continously,
+generated previously to avoid regeneration or running of script continuously,
 when we have an output already.
 
-- **Another script requirement is making the script idempotent:**\ 
+- #### Another script requirement is making the script idempotent: 
 
 Making the script idempotent means executing the python scripts multiple times
 and still get the same output. Before my work on the project, the report scripts
-usually append it sections to the readme using the updatereadme function and
+usually append it sections to the readme using the `update_readme()` function and
 this allows the order of outputs to change. For example when I run a script, I
 can get A-B-C but when I run it again maybe in the next quarter. I could get
 B-C-A, we don't want it like that. It should be predictable and consistent
 across quarters. But now,it inserts the sections alphabetically to the right
-postion regardless of how the python scripts were executed. So we get A-B-C in
+position regardless of how the python scripts were executed. So we get A-B-C in
 quarter 1 and A-B-C in quarter 2.
 
-- **Documentation on the project:**\ 
+- #### Documentation on the project: 
 
 Improving contributors experience is a big part of the project. During the
-outreachy contribution phase, new contributors kept on asking the same questions
+Outreachy contribution phase, new contributors kept on asking the same questions
 over and over again because there were some lack of information in the
 documentation. Timid Robot and I tried to identify areas that were lacking
 clarity and we put in more context into the sides of the documentation. 
 
 
-- **Completing the three stages of report for existing scripts:**\
+- #### Completing the three stages of report for existing scripts:
 
-Previous contributions had incompleted stages of report for a particular data
-source. I worked on completing the process and report stage for the openverse
+Previous contributions had incomplete stages of report for a particular data
+source. I worked on completing the process and report stage for the Openverse
 data source. This required understanding the data fetched and what meaningful
 data or insight can be beneficial for the different teams in the organisation. 
 
@@ -106,4 +107,4 @@ within constraints or limitations that could affect outcomes. Through this, I
 realized the importance of building the simplest possible architecture first,
 and then gradually adding components as the solution evolves.
 
-I am exicted to embark on the next half! I hope to make more impact on this project.
+I am excited to embark on the next half! I hope to make more impact on this project.
