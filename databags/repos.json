@@ -17,22 +17,6 @@
             "website": "https://opensource.creativecommons.org/contributing-code/github-repo-guidelines/"
         },
         {
-            "created": "2018-06-01T01:11:48+00:00",
-            "description": "Candela helper plugin to manage additional config and bootstrapping, used on CC Certificates website",
-            "engineering_project": true,
-            "featured": false,
-            "id": 135651265,
-            "language": "PHP",
-            "license": {
-                "name": "GNU General Public License v2.0",
-                "url": "https://github.com/creativecommons/candela-utility/blob/master/LICENSE"
-            },
-            "name": "candela-utility",
-            "slack": "",
-            "url": "https://github.com/creativecommons/candela-utility",
-            "website": "http://certificates.creativecommons.org/"
-        },
-        {
             "created": "2023-04-26T20:21:50+00:00",
             "description": "CC Accidenz Commons font",
             "engineering_project": true,
@@ -495,26 +479,6 @@
             "website": "https://creativecommons.org/platform/toolkit/"
         },
         {
-            "created": "2020-08-31T20:05:46+00:00",
-            "description": "An open graph image generator for Creative Commons projects.",
-            "engineering_project": true,
-            "english_name": "CC Open Graph Image Generator",
-            "featured": false,
-            "id": 291813425,
-            "language": "TypeScript",
-            "license": {
-                "name": "MIT License",
-                "url": "https://github.com/creativecommons/og-image-generator/blob/main/LICENSE"
-            },
-            "name": "og-image-generator",
-            "slack": "",
-            "technologies": [
-                "JavaScript"
-            ],
-            "url": "https://github.com/creativecommons/og-image-generator",
-            "website": "https://cc-og-image.vercel.app"
-        },
-        {
             "created": "2023-05-29T14:20:22+00:00",
             "description": "Open Professionals Education Network (OPEN) website",
             "engineering_project": true,
@@ -564,7 +528,7 @@
             "english_name": "Quantifying the Commons",
             "featured": true,
             "id": 533860990,
-            "language": "Jupyter Notebook",
+            "language": "Python",
             "license": {
                 "name": "MIT License",
                 "url": "https://github.com/creativecommons/quantifying/blob/main/LICENSE"
@@ -821,28 +785,6 @@
             "website": ""
         },
         {
-            "created": "2020-09-17T19:19:54+00:00",
-            "description": "This WordPress plugin provides custom functionality for the creativecommons.org website.",
-            "engineering_project": true,
-            "english_name": "WordPress Vocabulary blocks",
-            "featured": false,
-            "id": 296421346,
-            "language": "PHP",
-            "license": {
-                "name": "Other",
-                "url": "https://github.com/creativecommons/wp-plugin-creativecommons-website/blob/main/LICENSE"
-            },
-            "name": "wp-plugin-creativecommons-website",
-            "slack": "",
-            "technologies": [
-                "Javascript",
-                "React",
-                "WordPress"
-            ],
-            "url": "https://github.com/creativecommons/wp-plugin-creativecommons-website",
-            "website": ""
-        },
-        {
             "created": "2019-02-11T15:51:29+00:00",
             "description": "Creative Commons Chapter site theme (including chapter sites setup, taxonomies, and widget code)",
             "engineering_project": true,
@@ -899,50 +841,6 @@
                 "WordPress"
             ],
             "url": "https://github.com/creativecommons/wp-theme-cctoolkit",
-            "website": ""
-        },
-        {
-            "created": "2020-04-21T17:01:56+00:00",
-            "description": "New WordPress theme for Creative Commons website",
-            "engineering_project": true,
-            "english_name": "Creative Commons primary website WordPress Theme",
-            "featured": false,
-            "id": 257659012,
-            "language": "PHP",
-            "license": {
-                "name": "MIT License",
-                "url": "https://github.com/creativecommons/wp-theme-creativecommons.org/blob/main/LICENSE"
-            },
-            "name": "wp-theme-creativecommons.org",
-            "slack": "",
-            "technologies": [
-                "CSS",
-                "HTML",
-                "PHP",
-                "WordPress"
-            ],
-            "url": "https://github.com/creativecommons/wp-theme-creativecommons.org",
-            "website": ""
-        },
-        {
-            "created": "2019-10-16T17:42:01+00:00",
-            "description": "",
-            "engineering_project": true,
-            "english_name": "WordPress child theme for Global Summit website",
-            "featured": false,
-            "id": 215608377,
-            "language": "PHP",
-            "license": {
-                "name": "MIT License",
-                "url": "https://github.com/creativecommons/wp-theme-summit/blob/main/LICENSE"
-            },
-            "name": "wp-theme-summit",
-            "slack": "",
-            "technologies": [
-                "PHP",
-                "WordPress"
-            ],
-            "url": "https://github.com/creativecommons/wp-theme-summit",
             "website": ""
         }
     ]
