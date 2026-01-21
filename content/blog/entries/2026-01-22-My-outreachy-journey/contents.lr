@@ -1,0 +1,110 @@
+title: Quantifying the Commons: My Journey so far with outreachy
+---
+categories:
+open-source
+collaboration
+community
+quantifying-the-commons
+---
+author: Oreoluwa
+---
+pub_date: 2023-01-22
+---
+body:
+
+Hi there! My name is Oreoluwa, from Nigeria. I am an Outreachy intern at
+Creative Commons for the December 2025 cohort. My project involves improving and
+expanding Quantifying the commons. In this post, I will share my progress and
+key takeaways from the first half of my internship.
+
+## Project overview
+
+Quantifying the commons aims to track and analyse the trends of the creative
+commons legal tools. Who is using these legal tools, where, why, how? We want to
+measure the impact of these tools. For the past 25 years, efforts have
+been made by the organisation to democratize knowledge and content on the
+internet. We want to identify our growth, gaps and areas for development.
+
+### A brief history I learnt about
+
+After watching a documentary recommended by my mentor. I learnt about a great
+man called Aaron Schwartz who is also known as internet's own boy. He believed
+knowledge should be free and accessible to everyone. His ideas helped inspire
+movements like Creative Commons, which allows creators to share their work
+legally while choosing how others can use it. I resonate well with this
+movement because I realised how much knowledge I have gained from reading
+articles and my random searches on the internet. I feel really excited to be
+contributing to this mission.
+
+## Progress so far
+
+### Aligning the project better to the script requirements
+
+#### One of the main script requirement is making the script repeatable
+
+We use Github Actions to automate our python script on a quarterly basis. So
+there is an execution schedule that runs for 45 days or less. For better
+efficiency, scripts must exit early if a task is already completed and must
+reliably continue at the appropriate spot if multiple runs are required and not
+completed. Multiple runs in the sense that some of the APIs we integrate to
+fetch data have their limitations that allow a certain amount of fetch per hour
+or day. So we continue to fetch after the specified hour or day. During my work
+on the project, I implemented a mechanism that checks for completion of fetch
+scripts and allows the script to continue from when it stops during any
+interruption. I integrated a workflow that checks if an output has been
+generated previously to avoid regeneration or running of script continuously,
+when we have an output already.
+
+#### Another script requirement is making the script idempotent 
+
+Making the script idempotent means executing the python scripts multiple times
+and still get the same output. Before my work on the project, the report scripts
+usually append it sections to the readme using the `update_readme()` function and
+this allows the order of outputs to change. For example when I run a script, I
+can get A-B-C but when I run it again maybe in the next quarter. I could get
+B-C-A, we don't want it like that. It should be predictable and consistent
+across quarters. But now,it inserts the sections alphabetically to the right
+position regardless of how the python scripts were executed. So we get A-B-C in
+quarter 1 and A-B-C in quarter 2.
+
+#### Documentation on the project 
+
+Improving contributors experience is a big part of the project. During the
+Outreachy contribution phase, new contributors kept on asking the same questions
+over and over again because there were some lack of information in the
+documentation. Timid Robot and I tried to identify areas that were lacking
+clarity and we put in more context into the sides of the documentation. 
+
+
+#### Completing the three stages of report for existing scripts
+
+Previous contributions had incomplete stages of report for a particular data
+source. I worked on completing the process and report stage for the Openverse
+data source. This required understanding the data fetched and what meaningful
+data or insight can be beneficial for the different teams in the organisation. 
+
+### Current status 
+
+I am currently working on completing the process and report stage for other data
+sources. Then I expand the project by adding new data sources for reporting. An
+iterative task for me is to check for areas in the code that might need
+improvement or better ways of doing things in the codebase. 
+
+
+### Collaboration with mentors 
+
+My favorite part of this project is my weekly meetup with my mentors, I get to
+ask questions, get ideas on ways I could improve something or solve a problem. I
+also get to review work done by my mentors, which allows me to learn from their
+approaches and imbibe them into my contributions.
+
+### Key takeways 
+
+Open source has been one of the coolest experiences in my tech journey. It has
+helped me expand my skill set, as I picked up new programming languages along
+the way. I learned to easily identify optimal solutions, especially when working
+within constraints or limitations that could affect outcomes. Through this, I
+realized the importance of building the simplest possible architecture first,
+and then gradually adding components as the solution evolves.
+
+I am excited to embark on the next half! I hope to make more impact on this project.
