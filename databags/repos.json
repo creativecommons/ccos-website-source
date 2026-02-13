@@ -431,6 +431,27 @@
             "website": "https://LegalDB.CreativeCommons.org/"
         },
         {
+            "created": "2026-02-12T13:22:17+00:00",
+            "description": "Static copy of the CC Legal Database: curated repository of Case Law and Scholarship data from around the world.",
+            "engineering_project": true,
+            "english_name": "CC Legal Database (static copy)",
+            "featured": false,
+            "id": 1156278975,
+            "language": "Shell",
+            "license": {
+                "name": "Creative Commons Attribution 4.0 International",
+                "url": "https://github.com/creativecommons/legaldb-static/blob/main/LICENSE"
+            },
+            "name": "legaldb-static",
+            "slack": "",
+            "technologies": [
+                "CSS",
+                "HTML"
+            ],
+            "url": "https://github.com/creativecommons/legaldb-static",
+            "website": ""
+        },
+        {
             "created": "2013-10-28T02:42:48+00:00",
             "description": "Creative Commons badges, license Buttons, etc.",
             "engineering_project": true,
