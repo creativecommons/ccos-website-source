@@ -1,0 +1,98 @@
+title: Quantifying the Commons: The end of an era
+---
+categories:
+open-source
+collaboration
+community
+quantifying-the-commons
+---
+author: Oreoluwa
+---
+pub_date: 2026-03-03
+---
+body:
+
+Quantifying the Commons: The end of an era.
+
+Dear gentle reader,
+
+It is the end of an era yet the beginning of my bloom as a young aspiring data
+professional on a global stage. It feels so surreal to be at the end of this
+amazing journey with my mentors and to see the quantifying commons become a
+mature project in the creative commons open source community. Quantifying the
+commons is also blooming so stay tuned to experience its impact in
+different teams at Creative Commons.
+
+Looking back, I was quite nervous on my first meeting with Timid Robot and
+Sara. I did not quite understand the automation part of the project, how long
+the scripts ran? Why? I was fascinated by the whole process of the system, after
+further explanation by Timid I was really impressed by the design thinking. A
+lot of details and critical thinking were put into implementing the system. Big
+kudos to the project lead and previous contributors, I am in love with the
+foundation being put in place prior to my contribution. It is a firm one and it
+made my work easier and worthwhile.
+
+
+## Day 1 was amazing, Day 90 is growth!
+
+I went from being confused with concepts used in the codebase to suggesting
+ideas on improving the automation process in the system. I constantly read
+articles, tested, iterated and improvised functions and mechanisms. I improved
+on my data structure and algorithm skills, I had to cater for test cases,
+limitations and risk. Risk in the sense that the system is exposed to change
+because the data is live and dynamic from the API. This is what I did in the
+first half of my internship here (first half blog post)
+[https://opensource.creativecommons.org/blog/entries/2026-01-22-My-outreachy-journey/].
+I would be focusing on the second half of the internship in this blog post. A
+big part of the project is ensuring the integrity of data is in sync with the
+efficiency of the automation process.
+
+
+### I worked on completing the automation process for the Smithsonian quarterly
+report: 
+Smithsonian is one of the largest public institutions in the United States. It
+has a total of 38 units/data sources like museums, zoos and libraries as of when
+I worked on it. We derived insights on the usage of CC0 license across the media
+records and records without media. This urged me to add the horizontal stacked
+barplot to the collection of visualization in the report system. From this, we
+could get the distribution of the records with CC0 licenses at a glance. Also,
+we explored the top 10 distribution of units and lowest 10 distribution of
+units. This meaningfully tells us how common the CC0 license is used in these
+institutions. After testing the whole workflow a couple of times, I detected
+that the unit code seems to be updated frequently whether added or removed. I
+developed a function that keeps track of these changes and gives a warning about
+changes in the next automation process. This was the best way possible at the
+moment to handle the sudden unit code, so that our data is quite predictable and
+updated.
+
+### I also worked on completing the automation process for the Arxiv quarterly
+report:
+
+Arxiv is a curated research-sharing platform with 5 million monthly active users
+and hosts 2.6 million research papers. We derived quite interesting insights
+from this data source. Then expanded the visualization collection in plot.py by
+adding the function for line plot and vertical stacked barplot. The insights
+include the count of legal tools on a yearly basis and various comparative
+analysis of the tools over the years. We also explored the breakdown of these
+tools usage in different categories.  
+
+## Lessons learnt:
+I learnt so much about creating a structure when solving a problem. It is quite
+easier to debug and it presents a detailed workflow for future contributors to
+understand what has been done previously. It literally boils down to how you
+name your variable or how you use it in a function. I also learnt the importance
+of asking why. Timid encouraged me to always question assumptions and understand
+the reasoning behind decisions. This was the best thing to do because it made
+the whole internship fun and puzzling. Things became naturally logical and I
+could connect the dots quite easily.
+
+## What Next!
+I hope to continue volunteering my time on the project going forward. I am also
+eager to explore other open-source projects involving research, big data, and
+automation, and to further align these skill sets with my background in
+actuarial science.
+
+## Goodbye for now
+I really enjoyed working with my mentors, I will miss our little chit chats
+about the holidays, the weather and even vacation trips. I look forward to
+catching up again in the future.
