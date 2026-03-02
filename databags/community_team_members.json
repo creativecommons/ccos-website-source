@@ -127,11 +127,6 @@
         {
             "members": [
                 {
-                    "github": "aldenstpage",
-                    "name": "Alden Page",
-                    "role": "Project Maintainer"
-                },
-                {
                     "github": "kgodey",
                     "name": "Kriti Godey",
                     "role": "Project Maintainer"
@@ -147,16 +142,6 @@
         },
         {
             "members": [
-                {
-                    "github": "aldenstpage",
-                    "name": "Alden Page",
-                    "role": "Project Maintainer"
-                },
-                {
-                    "github": "mathemancer",
-                    "name": "Brent Moran",
-                    "role": "Project Maintainer"
-                },
                 {
                     "github": "hugosolar",
                     "name": "Hugo Solar",
@@ -226,38 +211,6 @@
             ],
             "name": "CC WordPress Themes",
             "repos": "creativecommons-base,wp-theme-cc-chapter,wp-theme-cc-commoners,wp-theme-cctoolkit"
-        },
-        {
-            "members": [
-                {
-                    "github": "mathemancer",
-                    "name": "Brent Moran",
-                    "role": "Project Maintainer"
-                }
-            ],
-            "name": "Data Science Playground",
-            "repos": "data-science-playground"
-        },
-        {
-            "members": [
-                {
-                    "github": "kgodey",
-                    "name": "Kriti Godey",
-                    "role": "Project Maintainer"
-                },
-                {
-                    "github": "krysal",
-                    "name": "Krystle Salazar",
-                    "role": "Project Core Committer"
-                },
-                {
-                    "github": "SaurabhAgarwala",
-                    "name": "Saurabh Argarwala",
-                    "role": "Project Contributor"
-                }
-            ],
-            "name": "Legal Database",
-            "repos": "legaldb"
         },
         {
             "members": [
