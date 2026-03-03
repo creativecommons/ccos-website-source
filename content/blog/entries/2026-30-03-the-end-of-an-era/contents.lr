@@ -12,7 +12,7 @@ pub_date: 2026-03-03
 ---
 body:
 
-## Quantifying the Commons: The end of an era.
+## Quantifying the Commons: The end of an era
 
 Dear gentle reader,
 
@@ -41,15 +41,15 @@ articles, tested, iterated and improvised functions and mechanisms. I improved
 on my data structure and algorithm skills, I had to cater for test cases,
 limitations and risk. Risk in the sense that the system is exposed to change
 because the data is live and dynamic from the API. This is what I did in the
-first half of my internship here [first half blog post]
-(https://opensource.creativecommons.org/blog/entries/2026-01-22-My-outreachy-journey/).
+first half of my internship here 
+[first half blog post](https://opensource.creativecommons.org/blog/entries/2026-01-22-My-outreachy-journey/).
 I would be focusing on the second half of the internship in this blog post. A
 big part of the project is ensuring the integrity of data is in sync with the
 efficiency of the automation process.
 
 
-### I worked on completing the automation process for the Smithsonian quarterly
-report
+### Automating the Smithsonian quarterly report
+
 Smithsonian is one of the largest public institutions in the United States. It
 has a total of 38 units/data sources like museums, zoos and libraries as of when
 I worked on it. We derived insights on the usage of CC0 license across the media
@@ -65,8 +65,7 @@ changes in the next automation process. This was the best way possible at the
 moment to handle the sudden unit code, so that our data is quite predictable and
 updated.
 
-### I also worked on completing the automation process for the Arxiv quarterly
-report
+### Automating the arXiv quarterly report
 
 Arxiv is a curated research-sharing platform with 5 million monthly active users
 and hosts 2.6 million research papers. We derived quite interesting insights
@@ -76,7 +75,7 @@ include the count of legal tools on a yearly basis and various comparative
 analysis of the tools over the years. We also explored the breakdown of these
 tools usage in different categories.  
 
-## Lessons learnt:
+## Lessons learned
 I learnt so much about creating a structure when solving a problem. It is quite
 easier to debug and it presents a detailed workflow for future contributors to
 understand what has been done previously. It literally boils down to how you
