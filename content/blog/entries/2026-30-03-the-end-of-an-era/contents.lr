@@ -41,8 +41,8 @@ articles, tested, iterated and improvised functions and mechanisms. I improved
 on my data structure and algorithm skills, I had to cater for test cases,
 limitations and risk. Risk in the sense that the system is exposed to change
 because the data is live and dynamic from the API. This is what I did in the
-first half of my internship here 
-[first half blog post](https://opensource.creativecommons.org/blog/entries/2026-01-22-My-outreachy-journey/).
+first half of my internship
+[here](https://opensource.creativecommons.org/blog/entries/2026-01-22-My-outreachy-journey/).
 I would be focusing on the second half of the internship in this blog post. A
 big part of the project is ensuring the integrity of data is in sync with the
 efficiency of the automation process.
