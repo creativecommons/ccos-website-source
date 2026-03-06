@@ -8,8 +8,26 @@ description: We do all of our development [on
 GitHub](https://github.com/creativecommons/). If you are not familiar with
 GitHub or pull requests, [here is an excellent guide to get
 started](https://guides.github.com/activities/hello-world/).
----
+--- <!-- disregard: vim syntax highlighting fix_ -->
 body:
+
+
+## AI generated content prohibited
+
+<!--
+This section must match the same section in:
+  creativecommons/.github: CONTRIBUTING.md
+-->
+
+[Avoiding generative AI development tools — Creative Commons Open
+Source][no-ai]:
+> At this time, the Creative Commons (CC) **Technology team** has concluded
+> that generative AI development tooling does not pass a cost/benefit analysis
+> *for contributing to our open source projects*. Until further notice, we will
+> not accept CC Open Source submissions that include code or content generated
+> with AI.
+
+[no-ai]: https://opensource.creativecommons.org/blog/entries/2025-12-01-avoiding-gen-ai-tools/
 
 
 ## Finding an issue
@@ -85,20 +103,32 @@ on.
 
 ## Contribution process
 
-Once you've found an issue you'd like to work on, please follow these steps to
-make your contribution:
-
-1. If you have followed the guidelines above, you don't need to ask permission
-   to start work on an issue.
-2. Write your code and submit your pull request (PR). Be sure to read and
-   follow our **[pull request guidelines](/contributing-code/pr-guidelines/)!**
-3. Wait for code review and address any issues raised as soon as you can.
+1. Familiarize yourself with the project
+   - Read the project `README` and `CONTRIBUTING` documents
+   - Read the appropriate guides:
+     - [Foundational technologies — Creative Commons Open Source][guide-found]
+     - [Pull Request Guidelines — Creative Commons Open Source][guide-pr]
+     - See the website for more!
+2. Once you've found an issue you'd like to work on, please follow these steps
+   to make your contribution:
+   1. If you have followed the guidelines above, you don't need to ask
+      permission to start work on an issue.
+   2. [Fork][gh-fork] the Repository
+   3. Work in a [new branch][gh-branch]
+   4. Open a [Pull Request (PR)][gh-pr] and **follow the PR template**
+   5. Write your code and submit your pull request (PR).
+   6. Wait for code review and address any issues raised as soon as you can.
 
 **A note on collaboration:** We encourage people to collaborate as much as
 possible. We especially appreciate contributors reviewing each other's pull
 requests, as long as you are [kind and constructive][review-comments] when you
 do so.
 
+[guide-found]: https://opensource.creativecommons.org/contributing-code/foundational-tech/
+[guide-pr]: /contributing-code/pr-guidelines/
+[gh-fork]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo
+[gh-branch]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository
+[gh-pr]: https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
 [review-comments]: https://medium.com/@otarutunde/comments-during-code-reviews-2cb7791e1ac7
 
 
