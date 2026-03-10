@@ -9,8 +9,12 @@ body: <!-- disregard: vim syntax highlighting fix_ -->
 
 ## Programs
 
-Creative Commons (CC) ~~regularly~~ participates in the following work programs
-that offer grants or stipends:
+
+[Deprioritizing work programs — Creative Commons Open Source][deprioritizing]:
+> Unfortunately, Creative Commons (CC) has no plans to participate in future
+> work programs.
+
+[deprioritizing]: /blog/entries/2026-03-11-deprioritizing-work-programs/
 
 
 ### Google Season of Docs
@@ -22,15 +26,14 @@ CC isn't currently participating in Google Season of Docs (GSoD).
 
 ### Google Summer of Code
 
-CC isn't planning to participate in Google Summer of Code (GSoC).
+CC isn't currently participating in Google Summer of Code (GSoC).
 
 - [Program website](https://summerofcode.withgoogle.com/)
 
 
 ### Outreachy
 
-CC isn't planning to participate in future Outreachy cohorts. CC is currently
-participating in the December 2025 cohort.
+CC isn't currently participating in Outreachy.
 
 - [Program website](https://www.outreachy.org/)
 - [CC's Outreachy page][outreachycc]
