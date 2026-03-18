@@ -8,8 +8,8 @@ description: We do all of our development [on
 GitHub](https://github.com/creativecommons/). If you are not familiar with
 GitHub or pull requests, [here is an excellent guide to get
 started](https://guides.github.com/activities/hello-world/).
---- <!-- disregard: vim syntax highlighting fix_ -->
-body:
+---
+body: <!-- disregard: vim syntax highlighting fix_ -->
 
 
 ## AI generated content prohibited
