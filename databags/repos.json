@@ -303,7 +303,7 @@
         },
         {
             "created": "2013-10-31T00:19:22+00:00",
-            "description": "Legacy legal code translations and general support issues (see the \"Help and support\" section of the README)",
+            "description": "Legacy legal code translations and GitHub issues for help with CC digital resources",
             "engineering_project": true,
             "english_name": "Legacy legal code translations and general support issues",
             "featured": false,
