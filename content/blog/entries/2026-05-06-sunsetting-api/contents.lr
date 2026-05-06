@@ -1,0 +1,62 @@
+title: Sunsetting api.creativecommons.org
+---
+categories:
+announcements
+cc-legal-tools
+---
+author: TimidRobot
+---
+pub_date: 2026-05-06
+---
+body:
+
+
+Creative Commons (CC) will terminate the api.crativecommons.org service on 2026
+Nov 02. Please note, however, that hosting or software failure may render the
+service unavailable before that date.
+
+
+## Removal Rationale
+
+- The API depends on the legacy ccEngine, which was replaced by the current CC
+  Legal Tools on 2023-09-27. It is no longer maintainable.
+- The infrastructure hosting the API is no longer supported.
+- The data provided changes infrequently enough that an API is a suboptimal
+  solution.
+
+
+## Next Steps
+
+- Evaluate existing flat files to replace API:
+  - [creativecommons.org/rdf/index.rdf][index-rdf]
+    - This ccREL file has existed for a long time, but has never been very
+      visible. Its accuracy was significantly improved with the new CC Legal
+      Tools App static site generation starting in 2023 September.
+- creativecommons/cc-legal-tools-data: [config/cc-legal-tools.csv][cc-legal-tools-csv]
+  -  This file is new this year. Its generation in the CC Legal Tools App can
+     be modified or a new file can be generated if additional data is needed, a
+     different file format is needed, etc.
+- If you are using DSpace, see: [Replace api.creativecommons.org
+  DSpace/DSpace#11808][dspace1808].
+- Please use the following form to share concerns or request ongoing
+  communication: [Sunsetting api.creativecommons.org feedback][feedback].
+
+[index-rdf]: https://creativecommons.org/rdf/index.rdf
+[cc-legal-tools-csv]: https://github.com/creativecommons/cc-legal-tools-data/blob/main/config/cc-legal-tools.csv
+[dspace1808]: https://github.com/DSpace/DSpace/issues/11808
+[feedback]: https://docs.google.com/forms/d/e/1FAIpQLScZn1Jo3Ktfb5o2Sf08hMb3yWD9WArpQtQGvQaoP19un-UOQw/viewform?usp=dialog
+
+
+## Related blog posts
+
+- `2024-05-28`: [New CreativeCommons.org launched 2023 September][blog-launched]
+- `2011-08-31`: [Summary of current licensing tools][blog-summary]
+- `2011-01-13`: [CC REST API Updated for Public Domain Mark][blog-rest]
+- `2009-04-02`: [Enumeration descriptions in CC Web Services][blog-enum]
+- `2008-07-24`: [cc.license in alpha][blog-alpha]
+
+[blog-launched]: https://opensource.creativecommons.org/blog/entries/2024-05-28-creativecommons-org/
+[blog-summary]: https://opensource.creativecommons.org/archives/old-tech-blog/entries/summary-of-current-licensing-tools/
+[blog-rest]: https://opensource.creativecommons.org/archives/old-tech-blog/entries/cc-rest-api-updated-for-public-domain-mark/
+[blog-enum]: https://opensource.creativecommons.org/archives/old-tech-blog/entries/enumeration-descriptions-in-cc-web-services/
+[blog-alpha]: https://opensource.creativecommons.org/archives/old-tech-blog/entries/cclicense-in-alpha/
