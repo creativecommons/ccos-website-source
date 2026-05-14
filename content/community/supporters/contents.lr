@@ -7,14 +7,14 @@ title: Supporters
 description: Creative Commons (CC) is grateful 🙏 to those have directly and
 indirectly supported our open source efforts ❤️
 ---
-body:
+body: <!-- disregard: vim syntax highlighting fix_ -->
 
 
 ## Volunteers
 
 Countless people have contributed code, documentation, translations, and
 insight to CC's technology efforts. Thank you to all volunteers and community
-members that have supported our free/libre and open source (FOSS) activities.
+members that have supported our free/libre and open source (FOSS) efforts!
 
 *TODO: Write a script and GitHub action in
 [creativecommons/ccos-scripts][ccos-scripts] to populate this section (or a sub
@@ -57,10 +57,11 @@ will no longer hold their standards ransom for a purchase fee.
 
 ## Financial sponsors
 
-- [Supporters - Creative Commons][ccsupporters]
+- [Your support helps us continue to advocate for global access to knowledge -
+  Creative Commons][ccsupporters]
 - Our past and current [GitHub Sponsors][ghsponsors]
 
-[ccsupporters]: https://creativecommons.org/about/support-cc/supporters/
+[ccsupporters]: https://creativecommons.org/support/
 [ghsponsors]: https://github.com/sponsors/creativecommons#sponsors-section-list
 
 
