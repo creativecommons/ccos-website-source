@@ -17,6 +17,27 @@
             "website": "https://opensource.creativecommons.org/contributing-code/github-repo-guidelines/"
         },
         {
+            "created": "2026-06-25T13:28:55+00:00",
+            "description": "CC Toolkit for Business allows professional individuals and organizations to understand why the use of CC licenses can be a strategic instrument to consider in their business models.",
+            "engineering_project": true,
+            "english_name": "Business Toolkit",
+            "featured": false,
+            "id": 1280326531,
+            "language": null,
+            "license": {
+                "name": "Creative Commons Attribution Share Alike 4.0 International",
+                "url": "https://github.com/creativecommons/business-toolkit/blob/main/LICENSE"
+            },
+            "name": "business-toolkit",
+            "slack": "",
+            "technologies": [
+                "HTML",
+                "CSS"
+            ],
+            "url": "https://github.com/creativecommons/business-toolkit",
+            "website": "https://business-toolkit.creativecommons.org/"
+        },
+        {
             "created": "2023-04-26T20:21:50+00:00",
             "description": "CC Accidenz Commons font",
             "engineering_project": true,
@@ -508,6 +529,27 @@
             ],
             "url": "https://github.com/creativecommons/open4us.org",
             "website": "http://open4us.org/"
+        },
+        {
+            "created": "2026-06-08T19:13:03+00:00",
+            "description": "Raising awareness about the lack of access to climate research and unveiled how essential open science and open climate is if we are to find faster, more equitable solutions to address the climate crisis.",
+            "engineering_project": true,
+            "english_name": "Open Climate Campaign",
+            "featured": false,
+            "id": 1263249338,
+            "language": null,
+            "license": {
+                "name": "Creative Commons Attribution Share Alike 4.0 International",
+                "url": "https://github.com/creativecommons/openclimatecampaign/blob/main/LICENSE"
+            },
+            "name": "openclimatecampaign",
+            "slack": "",
+            "technologies": [
+                "HTML",
+                "CSS"
+            ],
+            "url": "https://github.com/creativecommons/openclimatecampaign",
+            "website": "https://openclimatecampaign.org"
         },
         {
             "created": "2024-10-03T19:13:10+00:00",
