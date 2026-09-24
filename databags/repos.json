@@ -653,7 +653,7 @@
             "english_name": "Creative Commons SaltStack",
             "featured": false,
             "id": 158455678,
-            "language": "SaltStack",
+            "language": "Salt",
             "license": {
                 "name": "MIT License",
                 "url": "https://github.com/creativecommons/sre-salt-prime/blob/main/LICENSE"
