@@ -563,6 +563,28 @@
             "website": ""
         },
         {
+            "created": "2025-08-08T15:45:46+00:00",
+            "description": "Creative Commons (CC) Public Wiki",
+            "engineering_project": true,
+            "english_name": "Creative Commons (CC) Public Wiki",
+            "featured": false,
+            "id": 1034567325,
+            "language": "Shell",
+            "license": {
+                "name": "MIT License",
+                "url": "https://github.com/creativecommons/public-wiki/blob/main/LICENSE"
+            },
+            "name": "public-wiki",
+            "slack": "",
+            "technologies": [
+                "MediaWiki",
+                "Debian",
+                "Docker"
+            ],
+            "url": "https://github.com/creativecommons/public-wiki",
+            "website": "https://wiki.creativecommons.org/"
+        },
+        {
             "created": "2022-09-07T17:02:39+00:00",
             "description": "Quantifying the Commons: measure the size and diversity of the commons--the collection of works that are openly licensed or in the public domain",
             "engineering_project": true,
