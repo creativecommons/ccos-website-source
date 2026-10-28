@@ -161,22 +161,6 @@
             "website": "https://resources.creativecommons.org/"
         },
         {
-            "created": "2014-10-06T22:07:52+00:00",
-            "description": "RubyCAS customizations for CCID (Creative Commons ID)",
-            "engineering_project": true,
-            "featured": false,
-            "id": 24866852,
-            "language": "HTML",
-            "license": {
-                "name": "Other",
-                "url": "https://github.com/creativecommons/CCID-cas/blob/main/LICENSE.md"
-            },
-            "name": "CCID-cas",
-            "slack": "",
-            "url": "https://github.com/creativecommons/CCID-cas",
-            "website": "https://login.creativecommons.org/"
-        },
-        {
             "created": "2019-04-16T18:57:41+00:00",
             "description": "Script to add CCID users to MediaWiki",
             "engineering_project": true,
