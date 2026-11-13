@@ -17,27 +17,6 @@
             "website": "https://opensource.creativecommons.org/contributing-code/github-repo-guidelines/"
         },
         {
-            "created": "2026-11-05T13:01:55+00:00",
-            "description": "Early container stages to serve as a foundation for application containers.",
-            "engineering_project": true,
-            "english_name": "Creative Commons (CC) base containers",
-            "featured": false,
-            "id": 1447006842,
-            "language": "Shell",
-            "license": {
-                "name": "Creative Commons Zero v1.0 Universal",
-                "url": "https://github.com/creativecommons/base-containers/blob/main/LICENSE"
-            },
-            "name": "base-containers",
-            "slack": "",
-            "technologies": [
-                "Debian",
-                "Docker"
-            ],
-            "url": "https://github.com/creativecommons/base-containers",
-            "website": ""
-        },
-        {
             "created": "2026-06-25T13:28:55+00:00",
             "description": "CC Toolkit for Business allows professional individuals and organizations to understand why the use of CC licenses can be a strategic instrument to consider in their business models.",
             "engineering_project": true,
@@ -291,6 +270,27 @@
             ],
             "url": "https://github.com/creativecommons/commoners",
             "website": "https://network.creativecommons.org/"
+        },
+        {
+            "created": "2026-11-05T13:01:55+00:00",
+            "description": "Creative Commons (CC) containers images (primarily for use by CC application container images).",
+            "engineering_project": true,
+            "english_name": "Creative Commons (CC) base containers",
+            "featured": false,
+            "id": 1447006842,
+            "language": "Shell",
+            "license": {
+                "name": "Creative Commons Zero v1.0 Universal",
+                "url": "https://github.com/creativecommons/containers/blob/main/LICENSE"
+            },
+            "name": "containers",
+            "slack": "",
+            "technologies": [
+                "Debian",
+                "Docker"
+            ],
+            "url": "https://github.com/creativecommons/containers",
+            "website": ""
         },
         {
             "created": "2024-06-14T18:39:49+00:00",
