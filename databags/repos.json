@@ -278,7 +278,7 @@
             "english_name": "Creative Commons (CC) base containers",
             "featured": false,
             "id": 1447006842,
-            "language": "Shell",
+            "language": "HTML",
             "license": {
                 "name": "Creative Commons Zero v1.0 Universal",
                 "url": "https://github.com/creativecommons/containers/blob/main/LICENSE"
